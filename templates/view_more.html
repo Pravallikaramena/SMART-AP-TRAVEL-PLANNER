@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Places - {{destination}}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}?v=3">
+    <link rel="stylesheet" href="{{ url_for('static', filename='planai.css') }}?v=3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    {% include "navbar.html" %}
+    <button onclick="location.href='/ai_recommendations'" class="back-btn">Back</button>
+
+    <!-- WEATHER FORECAST -->
+    <div class="weather-section">
+        <h2 class="weather-title">Weather Forecast for {{weather_loc}}</h2>
+        <div class="weather-container">
+            {% if weather %}
+                {% for w in weather %}
+                <div class="weather-card">
+                    <h3>{{w.day}}</h3>
+                    <p class="date">{{w.date}}</p>
+                    <div class="icon">
+                        {% if w.icon == 'sun' or 'sun' in w.weather.lower() %}
+                            <i class="fas fa-sun sun-icon"></i>
+                        {% elif 'rain' in w.weather.lower() %}
+                            <i class="fas fa-cloud-rain rain-icon"></i>
+                        {% else %}
+                            <i class="fas fa-cloud cloud-icon"></i>
+                        {% endif %}
+                    </div>
+                    <p class="temp">{{w.temp}}</p>
+                </div>
+                {% endfor %}
+            {% else %}
+                <p style="text-align:center;color:white;">Weather data not available</p>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- TITLE -->
+    <h1 class="main-title">All Tourist Places in {{destination}}</h1>
+    <p style="text-align:center;color:#666;margin-bottom:30px;">
+        <i class="fas fa-info-circle"></i> Showing all {{all_places|length}} places for your ₹{{budget}} budget
+    </p>
+
+    <!-- ALL PLACES GRID -->
+    <div class="section" id="tourist-places">
+        <div class="cards" id="placesCards">
+            {% for place in all_places %}
+            <div class="card">
+                {% if place.is_affordable %}
+                    <span class="affordability-badge affordable"><i class="fas fa-check"></i> Within Budget</span>
+                {% else %}
+                    <span class="affordability-badge over-budget"><i class="fas fa-exclamation-triangle"></i> Over Budget</span>
+                {% endif %}
+
+                <h3><i class="fas fa-map-marker-alt"></i> {{place.place}}</h3>
+                <p><i class="fas fa-info-circle"></i> Location: {{place.area}}</p>
+                <p><i class="fas fa-star"></i> Rating: {{place.rating}}</p>
+                <p><i class="fas fa-ticket-alt"></i> Entry Fee: 
+                    <span class="{% if place.entry_fee == 'Free' %}free-badge{% endif %}">
+                        {{place.entry_fee}}
+                    </span>
+                </p>
+                <span class="card-cost-tag">Est. Trip Cost: <b>₹{{place.est_cost}}</b></span>
+                <p>Distance 🚗 {{place.distance}} km</p>
+                {% if place.time %}
+                    <p>Travel Time ⏱ {{place.time}} mins</p>
+                {% endif %}
+
+                <div class="actions">
+                    <a target="_blank" class="btn"
+                        href="https://www.google.com/maps/search/{{place.place}},+{{destination}},+Andhra+Pradesh/@{{place.lat}},{{place.lon}},16z">
+                        Map 🗺
+                    </a>
+                    <a href="{{ url_for('ai_recommendations', target_place=place.place) }}" class="btn-nearby">
+                        Generate AI Plan 🚀
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = '/ai_recommendations';
+        }
+    </script>
+</body>
+</html>

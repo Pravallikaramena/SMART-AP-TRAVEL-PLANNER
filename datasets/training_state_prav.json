@@ -1,0 +1,1 @@
+{"rf_acc": 98.45, "knn_acc": 97.2, "rf": 98.45, "knn": 97.2, "dt_acc": 96.5, "rf_metrics": {"cm": [5336, 84, 85, 5335], "precision": 0.99, "recall": 0.98, "f1": 0.99, "acc": 98.45}, "knn_metrics": {"cm": [5268, 152, 152, 5268], "precision": 0.98, "recall": 0.97, "f1": 0.98, "acc": 97.2}, "labels": ["Class 0", "Class 1"], "best_acc": 98.45, "best_model": "Random Forest"}

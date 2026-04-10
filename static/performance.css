@@ -1,0 +1,229 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f1f4f9 0%, #e2e8f0 100%);
+    color: #2c3e50;
+    min-height: 100vh;
+}
+
+.performance-container {
+    max-width: 1200px;
+    margin: 100px auto 40px;
+    padding: 20px;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gradient-text {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1a5f7a;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+}
+
+/* CARDS */
+.classifier-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 24px;
+    padding: 0;
+    margin-bottom: 40px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    overflow: hidden;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+}
+
+.classifier-card:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.1);
+}
+
+.rf-card { border-left: 10px solid #00b894; }
+.knn-card { border-left: 10px solid #6c5ce7; }
+
+.card-header {
+    padding: 20px 30px;
+}
+
+.algorithm-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon-algo { font-size: 2rem; }
+.rf-icon { color: #00b894; }
+.knn-icon { color: #6c5ce7; }
+
+.algo-name {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0;
+    color: #00b894;
+}
+
+.knn-text { color: #6c5ce7; }
+
+.card-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    gap: 50px;
+}
+
+.side-title {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.color-red { color: #d63031; }
+
+/* TABLE */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+.styled-table th {
+    text-align: left;
+    padding: 12px;
+    color: #7f8c8d;
+    font-weight: 500;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.styled-table td {
+    padding: 20px 12px;
+    border-bottom: 1px solid #f7fafc;
+}
+
+.accent-text {
+    color: #3498db;
+    font-weight: 700;
+}
+
+/* MATRIX */
+.matrix-grid-2x2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.matrix-cells {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 300px;
+    height: 180px;
+    gap: 4px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.m-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    transition: background-color 0.8s ease;
+}
+
+.matrix-labels-y {
+    position: absolute;
+    left: -70px;
+    top: 0;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.axis-label-y {
+    transform: rotate(-90deg);
+    font-size: 0.85rem;
+    color: #7f8c8d;
+    white-space: nowrap;
+}
+
+.tick-labels-y {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    font-size: 0.95rem;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.matrix-labels-x {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.tick-labels-x {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 0.95rem;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+.axis-label-x {
+    font-size: 0.85rem;
+    color: #7f8c8d;
+}
+
+@media (max-width: 900px) {
+    .card-content { grid-template-columns: 1fr; gap: 40px; }
+}
+
+/* COLORBAR (RANGE) */
+.colorbar-container {
+    position: absolute;
+    left: 345px;
+    top: 0;
+    height: 180px;
+    display: flex;
+    align-items: stretch;
+}
+
+.colorbar-gradient {
+    width: 15px;
+    background: linear-gradient(to top, #ffa600 0%, #bc5090 40%, #003049 100%);
+    border-radius: 2px;
+}
+
+.colorbar-labels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 8px;
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    font-weight: 500;
+}

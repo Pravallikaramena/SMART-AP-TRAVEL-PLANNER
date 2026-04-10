@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Smart AP Travel Planner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+</head>
+
+<body>
+
+    {% include 'navbar.html' %}
+    
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div class="alert-message" id="flash-msg">
+                ✔ {{ messages[0] }}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+
+        <div class="hero-text">
+            {% if session.get('username') %}
+            <h1>Welcome, {{ session['username'] }}!</h1>
+            {% else %}
+            <h1>Explore Andhra Pradesh with AI</h1>
+            {% endif %}
+
+            <p>
+                Plan smart trips, discover hidden tourist places,
+                and travel within your budget using AI recommendations.
+            </p>
+
+            {% if session.get('username') %}
+            <a href="/dataset" class="btn">Plan Your Trip</a>
+            {% else %}
+            <a href="/register" class="btn" >Get Started</a>
+            {% endif %}
+        </div>
+    </section>
+
+    <!-- POPULAR DESTINATIONS -->
+    <section class="destinations">
+
+        <h2>Popular Destinations</h2>
+
+        <div class="slider-wrapper">
+
+            <button class="arrow left" onclick="slideLeft()">&#10094;</button>
+
+            <div class="card-container" id="cardSlider">
+
+                <div class="card">
+                    <img src="/static/papikondalu.jpg">
+                    <h3>Papikondalu</h3>
+                    <p>Beautiful hills along the Godavari river</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/iskcon.jpg">
+                    <h3>ISKCON Temple</h3>
+                    <p>Famous ISKCON temple dedicated to Lord Krishna, known for peaceful spiritual atmosphere.</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/maredumilli.jpg">
+                    <h3>Maredumilli</h3>
+                    <p>Beautiful forest tourism destination</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/vadapalli.jpg">
+                    <h3>🛕 Vadapalli Temple</h3>
+                    <p>Famous Sri Venkateswara Swamy temple located in Vadapalli village near the Godavari region.</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/lambasingi.jpg">
+                    <h3>Lambasingi</h3>
+                    <p>Known as the Kashmir of Andhra Pradesh</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/simhachalam.jpg">
+                    <h3>🛕 Simhachalam Temple</h3>
+                    <p>Ancient temple of Lord Narasimha located near Visakhapatnam.</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/gandikota.jpg">
+                    <h3>Gandikota</h3>
+                    <p>Grand canyon of India located in AP</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/vjy temple.jpg">
+                    <h3>🛕 Kanaka Durga Temple</h3>
+                    <p>Famous temple located on Indrakeeladri Hill in Vijayawada dedicated to Goddess Durga.</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/borra.jpg">
+                    <h3>Borra Caves</h3>
+                    <p>Famous limestone caves near Araku</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/pattiseema.jpg">
+                    <h3>Pattiseema Temple</h3>
+                    <p>Famous Sri Veerabhadra Swamy temple located on an island in the Godavari river.</p>
+                </div>
+
+
+                <div class="card">
+                    <img src="/static/yaganti.jpg">
+                    <h3>Yaganti Temple</h3>
+                    <p>Famous Yaganti Uma Maheswara Temple located in Kurnool district.</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/araku.jpg">
+                    <h3>Araku Valley</h3>
+                    <p>Famous hill station with coffee plantations</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/mahakaleswar.jpg">
+                    <h3>Mahakaleswar Temple</h3>
+                    <p>Famous Mahakaleswar Swamy temple located in Rajamahendravaram near the Godavari river.</p>
+                </div>
+
+
+
+
+                <div class="card">
+                    <img src="/static/ramanarayanam.jpg">
+                    <h3>🛕 Ramanarayanam Temple</h3>
+                    <p>Ramayana themed spiritual complex located in Vizianagaram representing the life of Lord Rama.</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/godavari.jpg">
+                    <h3>Godavari River</h3>
+                    <p>The second longest river in India, famous for scenic views and boat rides.</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/tirupathi.jpg">
+                    <h3>Tirupati</h3>
+                    <p>One of the most famous temples in India</p>
+                </div>
+
+                <div class="card">
+                    <img src="/static/vizag beach.jpg">
+                    <h3>Vizag Beach</h3>
+                    <p>Relaxing beach destination</p>
+                </div>
+
+
+
+
+            </div>
+            <button class="arrow right" onclick="slideRight()">&#10095;</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEATURES -->
+    <section class="features">
+
+        <h2>Features</h2>
+
+        <div class="feature-box">
+
+
+            <div class="feature">
+                <h3>🤖 AI Travel Planner</h3>
+                <p>Get travel suggestions using machine learning.</p>
+            </div>
+
+            <div class="feature">
+                <h3>💰 Budget Friendly Trips</h3>
+                <p>Plan your trip within your budget.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🌄 Hidden Tourist Places</h3>
+                <p>Discover unexplored destinations in AP.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🍽 Local Food Suggestions</h3>
+                <p>Find the best local food near your destination.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🚑 Emergency Services</h3>
+                <p>Access nearby hospitals, police stations, and emergency contacts during your trip.</p>
+            </div>
+            <div class="feature">
+                <h3>📍 Nearby Attractions</h3>
+                <p>Explore popular tourist places located near your selected destination.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🗺 Smart Route Planning</h3>
+                <p>Get optimized travel routes between tourist destinations.</p>
+            </div>
+
+            <div class="feature">
+                <h3>🌦 Weather Information</h3>
+                <p>Check real-time weather conditions of your destination before planning your trip.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>© 2026 Smart AP Travel Planner | AI Based Tourism Recommendation</p>
+
+    </footer>
+
+
+</body>
+<script>
+
+    function toggleMenu() {
+
+        let menu = document.getElementById("dropdownMenu")
+
+        if (menu.style.display === "block") {
+            menu.style.display = "none"
+        }
+        else {
+            menu.style.display = "block"
+        }
+
+    }
+    let slider = document.getElementById("cardSlider")
+
+    function slideLeft() {
+        slider.scrollBy({
+            left: -320,
+            behavior: "smooth"
+        })
+    }
+
+    function slideRight() {
+        slider.scrollBy({
+            left: 320,
+            behavior: "smooth"
+        })
+    }
+
+    // Auto-hide flash message after 10 seconds
+    document.addEventListener("DOMContentLoaded", function() {
+        let msg = document.getElementById("flash-msg");
+        if (msg) {
+            setTimeout(function() {
+                msg.style.transition = "opacity 0.5s ease";
+                msg.style.opacity = "0";
+                setTimeout(function() {
+                    msg.style.display = "none";
+                }, 500);
+            }, 5000); // 5 seconds
+        }
+    });
+
+</script>
+
+</html>

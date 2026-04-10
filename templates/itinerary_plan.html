@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itinerary Plan - {{destination}}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}?v=5">
+    <link rel="stylesheet" href="{{ url_for('static', filename='itinerary.css') }}?v=5">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    {% include "navbar.html" %}
+    <button onclick="location.href='/ai_recommendations'" class="back-btn">Back</button>
+
+    <!-- WEATHER SECTION -->
+    <div class="weather-section">
+        <h2 class="weather-title">Weather for {{destination}}</h2>
+        <div class="weather-container">
+            {% if weather %}
+                {% for w in weather %}
+                <div class="weather-card">
+                    <h4>{{w.day}}</h4>
+                    <p class="date">{{w.date}}</p>
+                    <div class="icon">
+                        {% if w.icon == 'sun' or 'sun' in w.weather.lower() %}
+                            <i class="fas fa-sun sun-icon"></i>
+                        {% elif 'rain' in w.weather.lower() %}
+                            <i class="fas fa-cloud-rain rain-icon"></i>
+                        {% else %}
+                            <i class="fas fa-cloud cloud-icon"></i>
+                        {% endif %}
+                    </div>
+                    <p class="temp">{{w.temp}}</p>
+                </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- COMPLETE ITINERARY PLAN -->
+    {% if itinerary and itinerary|length > 0 %}
+    <div class="itinerary-container">
+        <h1 class="itinerary-title">
+            <i class="fas fa-calendar-days"></i> {{total_days}}-Day Itinerary Plan for {{destination}}
+        </h1>
+
+
+
+        <!-- DAY-BY-DAY DETAILED ITINERARY -->
+        {% for day_num in range(1, total_days + 1) %}
+            {% set day_key = 'Day ' + (day_num|string) %}
+            {% if day_key in itinerary %}
+            <div class="day-itinerary">
+                <div class="day-title">
+                    <h2><i class="fas fa-calendar"></i> {{day_key}}</h2>
+                </div>
+
+                <!-- TIMELINE STRUCTURE -->
+                <div class="timeline">
+                    <!-- BREAKFAST -->
+                    {% if itinerary[day_key].food and itinerary[day_key].food|length > 0 %}
+                    <div class="timeline-item breakfast-item">
+                        <div class="time-marker">
+                            <i class="fas fa-sun"></i> 7:00 AM
+                        </div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-bowl-food"></i> Breakfast</h3>
+                            <p class="description">Start your day with a delicious breakfast at {{itinerary[day_key].food[0].name}}</p>
+                            <div class="details">
+                                <span><i class="fas fa-star yellow-star"></i> {{itinerary[day_key].food[0].rating}}</span>
+                                <a target="_blank" class="map-link" href="https://www.google.com/maps/search/?api=1&query={{itinerary[day_key].food[0].name}}+{{destination}}">
+                                    <i class="fas fa-map"></i> View on Map
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- MORNING ACTIVITY -->
+                    {% if itinerary[day_key].places and itinerary[day_key].places|length > 0 %}
+                    <div class="timeline-item activity-item">
+                        <div class="time-marker">
+                            <i class="fas fa-hiking"></i> 9:00 AM
+                        </div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-map-marker-alt"></i> Morning Activity</h3>
+                            <p class="description">Visit {{itinerary[day_key].places[0].place}} in {{itinerary[day_key].places[0].area}}</p>
+                            <div class="details">
+                                <span><i class="fas fa-star yellow-star"></i> {{itinerary[day_key].places[0].rating}}</span>
+                                <span><i class="fas fa-clock"></i> {{itinerary[day_key].places[0].time}} mins</span>
+                                <a target="_blank" class="map-link" href="https://www.google.com/maps/search/{{itinerary[day_key].places[0].place}},+{{destination}},+Andhra+Pradesh/@{{itinerary[day_key].places[0].lat}},{{itinerary[day_key].places[0].lon}},16z">
+                                    <i class="fas fa-map"></i> View on Map
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- LUNCH -->
+                    {% if itinerary[day_key].food and itinerary[day_key].food|length > 1 %}
+                    <div class="timeline-item lunch-item">
+                        <div class="time-marker">
+                            <i class="fas fa-utensils"></i> 1:00 PM
+                        </div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-bowl-rice"></i> Lunch</h3>
+                            <p class="description">Enjoy lunch at {{itinerary[day_key].food[1].name}}</p>
+                            <div class="details">
+                                <span><i class="fas fa-star yellow-star"></i> {{itinerary[day_key].food[1].rating}}</span>
+                                <a target="_blank" class="map-link" href="https://www.google.com/maps/search/?api=1&query={{itinerary[day_key].food[1].name}}+{{destination}}">
+                                    <i class="fas fa-map"></i> View on Map
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- AFTERNOON ACTIVITY -->
+                    {% if itinerary[day_key].places and itinerary[day_key].places|length > 1 %}
+                    <div class="timeline-item activity-item">
+                        <div class="time-marker">
+                            <i class="fas fa-camera"></i> 3:00 PM
+                        </div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-map-marker-alt"></i> Afternoon Activity</h3>
+                            <p class="description">Explore {{itinerary[day_key].places[1].place}} in {{itinerary[day_key].places[1].area}}</p>
+                            <div class="details">
+                                <span><i class="fas fa-star yellow-star"></i> {{itinerary[day_key].places[1].rating}}</span>
+                                <span><i class="fas fa-clock"></i> {{itinerary[day_key].places[1].time}} mins</span>
+                                <a target="_blank" class="map-link" href="https://www.google.com/maps/search/{{itinerary[day_key].places[1].place}},+{{destination}},+Andhra+Pradesh/@{{itinerary[day_key].places[1].lat}},{{itinerary[day_key].places[1].lon}},16z">
+                                    <i class="fas fa-map"></i> View on Map
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- EVENING/NIGHT -->
+                    {% if itinerary[day_key].places and itinerary[day_key].places|length > 2 %}
+                    <div class="timeline-item night-item">
+                        <div class="time-marker">
+                            <i class="fas fa-moon"></i> 6:00 PM
+                        </div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-sparkles"></i> Evening/Night Activity</h3>
+                            <p class="description">Visit {{itinerary[day_key].places[2].place}} for a relaxing evening in {{itinerary[day_key].places[2].area}}</p>
+                            <div class="details">
+                                <span><i class="fas fa-star yellow-star"></i> {{itinerary[day_key].places[2].rating}}</span>
+                                <span><i class="fas fa-clock"></i> {{itinerary[day_key].places[2].time}} mins</span>
+                                <a target="_blank" class="map-link" href="https://www.google.com/maps/search/{{itinerary[day_key].places[2].place}},+{{destination}},+Andhra+Pradesh/@{{itinerary[day_key].places[2].lat}},{{itinerary[day_key].places[2].lon}},16z">
+                                    <i class="fas fa-map"></i> View on Map
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- DINNER -->
+                    {% if itinerary[day_key].food and itinerary[day_key].food|length > 2 %}
+                    <div class="timeline-item dinner-item">
+                        <div class="time-marker">
+                            <i class="fas fa-moon"></i> 8:00 PM
+                        </div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-plate-wheat"></i> Dinner</h3>
+                            <p class="description">Have dinner at {{itinerary[day_key].food[2].name}}</p>
+                            <div class="details">
+                                <span><i class="fas fa-star yellow-star"></i> {{itinerary[day_key].food[2].rating}}</span>
+                                <a target="_blank" class="map-link" href="https://www.google.com/maps/search/?api=1&query={{itinerary[day_key].food[2].name}}+{{destination}}">
+                                    <i class="fas fa-map"></i> View on Map
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <!-- HOTEL REST -->
+                    {% if itinerary[day_key].hotels and itinerary[day_key].hotels|length > 0 %}
+                    <div class="timeline-item hotel-item">
+                        <div class="time-marker">
+                            <i class="fas fa-bed"></i> 10:00 PM
+                        </div>
+                        <div class="timeline-content">
+                            <h3><i class="fas fa-hotel"></i> Rest at Hotel</h3>
+                            <p class="description">Stay at {{itinerary[day_key].hotels[0].name}} (Budget-Friendly)</p>
+                            <div class="details">
+                                <span><i class="fas fa-star yellow-star"></i> {{itinerary[day_key].hotels[0].rating}}</span>
+                                <a target="_blank" class="map-link" href="https://www.google.com/maps/search/?api=1&query={{itinerary[day_key].hotels[0].name}}+{{destination}}">
+                                    <i class="fas fa-map"></i> View on Map
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="error-message">
+        <p><i class="fas fa-exclamation-triangle"></i> No itinerary data found. Please generate AI recommendations first!</p>
+        <a href="/ai_recommendations" class="btn">Go to Recommendations</a>
+    </div>
+    {% endif %}
+
+</body>
+</html>

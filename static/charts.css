@@ -1,0 +1,256 @@
+body{
+font-family:Arial;
+background:#f5f7fb;
+margin:0;
+padding:0;
+}
+.back-btn {
+    position: fixed;
+    top: 80px;
+    left: 20px;
+    
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: white;
+    
+    border: none;
+    padding: 10px 18px;
+    border-radius: 10px;
+    
+    font-size: 16px;
+    font-weight: 600;
+    
+    cursor: pointer;
+    
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.4);
+}
+.back-btn:active {
+    opacity: 0.8;
+}
+/* container */
+.back-btn {
+    position: fixed;
+    top: 80px;
+    left: 20px;
+
+    background: #007BFF;
+    color: white;
+
+    border: none;
+    padding: 8px 14px;   /* small size */
+    border-radius: 6px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    cursor: pointer;
+
+    width: auto;          /* IMPORTANT */
+    display: inline-block; /* IMPORTANT */
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+
+/* Hover */
+.back-btn:hover {
+    background: #0056b3 !important;
+}
+/* PAGE WRAPPER */
+.chart-page{
+margin-top:40px;
+width:100%;
+max-width:1200px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+}
+
+/* BEST MODEL TITLE */
+.best-title{
+text-align:center;
+margin-top:20px;
+margin-bottom:25px;
+font-size:32px;
+font-weight:600;
+color:#0d6efd;
+}
+
+/* BEST MODEL BOX */
+.best-model-box{
+width:65%;
+margin:30px auto;
+background:linear-gradient(135deg,#e8f2ff,#ffffff);
+padding:18px 25px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.12);
+text-align:center;
+border-left:6px solid #0d6efd;
+}
+
+.best-model-box h2{
+margin:0;
+font-size:30px;
+color:#0d6efd;
+font-weight:600;
+}
+
+/* CHART CONTAINER */
+.chart-container{
+width:80%;
+margin:30px auto;
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+.chart-title{
+margin-top:20px;
+font-size:24px;
+}
+
+.chart-subtitle{
+text-align:center;
+font-size:22px;
+margin-bottom:20px;
+color:#444;
+}
+
+/* WARNING BOX */
+.warning-box{
+text-align:center;
+margin:40px auto;
+background:#fff3cd;
+padding:40px;
+border-radius:12px;
+width:50%;
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+.warning-box h2{
+color:#856404;
+font-size:28px;
+}
+
+.warning-box p{
+font-size:18px;
+margin-top:10px;
+}
+
+/* TRAIN BUTTON */
+.train-btn{
+background:#28a745;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:8px;
+font-size:18px;
+margin-top:15px;
+cursor:pointer;
+}
+
+.train-btn:hover{
+background:#1b5e20;
+}
+
+/* NO TRAIN BOX */
+.no-train-box{
+width:500px;
+margin:40px auto;
+background:white;
+padding:40px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+text-align:center;
+}
+
+.no-train-box h2{
+color:#e74c3c;
+font-size:28px;
+}
+
+.no-train-box p{
+font-size:18px;
+color:#555;
+}
+
+
+
+
+
+
+
+
+
+
+/* Redundant navbar styles removed to use global navbar.css */
+
+
+
+
+
+/* LEFT TITLE */
+
+
+/* MENU */
+
+/* FIX CONTENT POSITION UNDER NAVBAR */
+
+body{
+padding-top:70px;
+}
+
+.chart-page{
+margin-top:0 !important;
+}
+
+.warning-box{
+margin-top:30px !important;
+}
+
+/* BEST MODEL HIGHLIGHT */
+.best-model-box{
+width:65%;
+margin:35px auto;
+padding:20px 30px;
+
+background:linear-gradient(135deg,#0d6efd,#3ea6ff);
+color:white;
+
+border-radius:12px;
+text-align:center;
+
+font-size:20px;
+font-weight:600;
+
+box-shadow:0 8px 25px rgba(0,0,0,0.2);
+
+position:relative;
+overflow:hidden;
+}
+
+/* glowing effect */
+.best-model-box::before{
+content:"🏆 Best Model";
+position:absolute;
+left:15px;
+top:50%;
+transform:translateY(-50%);
+font-size:14px;
+background:white;
+color:#0d6efd;
+padding:4px 10px;
+border-radius:20px;
+font-weight:600;
+}
+
+/* text inside */
+.best-model-box h2{
+margin:0;
+font-size:22px;
+font-weight:600;
+}
+
+.no-train-box{
+margin-top:30px !important;
+}

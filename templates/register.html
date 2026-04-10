@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='register.css') }}">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+{% include "navbar.html" %}
+<div class="container">
+
+<!-- LEFT SIDE TRAVEL SECTION -->
+
+<div class="left">
+<img src="/static/travel.jpg" alt="">
+</div>
+
+<!-- RIGHT SIDE REGISTER FORM -->
+
+<div class="register-box">
+
+<h2>Create Account</h2>
+
+<form action="/register_user" method="POST" onsubmit="return validateRegister()">
+    <input type="text" id="name" name="name" placeholder="Enter Name">
+<div id="nameError"></div>
+<input type="text" name="phone" maxlength="10" placeholder="Phone Number"  id="phone">
+<div id="phoneError">{{phone_error}}</div>
+<input type="email" name="email" placeholder="Email Address"  id="email">
+<div id="emailError">{{email_error}}</div>
+
+<div class="password-box">
+
+<input type="password" id="password" name="password" placeholder="Password" required>
+<div id="strengthBar"></div>
+<div id="strengthText"></div>
+
+<span class="toggle" onclick="togglePassword('password',this)">
+<i class="fa-solid fa-eye-slash"></i>
+</span>
+
+</div>
+
+<div class="password-box">
+
+<input type="password" id="confirm" name="confirmpassword" placeholder="Confirm Password" required>
+
+<span class="toggle" onclick="togglePassword('confirm',this)">
+<i class="fa-solid fa-eye-slash"></i>
+</span>
+
+</div>
+
+<div id="strength"></div>
+<div id="error"></div>
+<button type="submit">Create Account</button>
+
+
+
+
+<p>Already have an account? <a href="/login">Login</a></p>
+<p><a href="/">Back to home</a></p>
+</form>
+
+</div>
+
+</div>
+<script src="{{ url_for('static', filename='validation.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+
+body{
+font-family: poppins, sans-serif;
+
+background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+
+margin:0;
+padding-top:70px;   /* navbar space */
+}
+.back-btn {
+    position: fixed;
+    top: 80px;
+    left: 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.register-box{
+flex:1;
+background:rgba(255,255,255,0.75);
+padding:40px;
+backdrop-filter:blur(15px);
+}
+
+/* MAIN SPLIT CONTAINER */
+
+.main-container{
+display:flex;
+width:700px;
+background:rgba(255,255,255,0.9);
+border-radius:12px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+height: auto;
+}
+
+/* LEFT TRAVEL SECTION */
+.left{
+flex:1;
+position:relative;
+overflow:hidden;
+}
+
+.left img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+.left::after{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(255,255,255,0.3);
+backdrop-filter:blur(2px);
+}
+.forgot{
+text-align:right;
+margin-top:8px;
+font-size:14px;
+}
+
+.forgot a{
+color:#2b7cff;
+text-decoration:none;
+}
+
+.forgot a:hover{
+text-decoration:underline;
+}
+.left-section{
+width:50%;
+padding:40px;
+background:rgba(255,255,255,0.4);
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+.left-section h2{
+font-size:18px;
+letter-spacing:2px;
+}
+
+.left-section h1{
+font-size:40px;
+margin:10px 0;
+}
+
+.left-section p{
+color:#555;
+}
+
+/* RIGHT REGISTER FORM */
+
+.right-section{
+width:50%;
+padding:40px;
+text-align:center;
+}
+
+/* OLD CONTAINER STYLE (fallback if needed) */
+
+.container{
+width:900px;
+display:flex;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+border-radius:15px;
+overflow:hidden;
+max-height:560px; 
+}
+
+h2{
+text-align:center;
+margin-bottom:25px;
+}
+
+.input-group{
+margin-bottom:15px;
+}
+
+input{
+width:100%;
+padding:12px;
+border:1px solid #ccc;
+border-radius:6px;
+font-size:14px;
+margin-top:10px;
+}
+
+/* REGISTER BUTTON */
+
+button{
+width:100%;
+padding:12px;
+background:#2b7cff;
+border:none;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+margin-top:10px;
+}
+
+button:hover{
+background:#2b7cff;
+}
+
+.password-box{
+position:relative;
+}
+
+.password-box input{
+width:100%;
+padding:12px;
+
+}
+
+.toggle{
+position:absolute;
+right:15px;
+top:50%;
+transform:translateY(-50%);
+cursor:pointer;
+font-size:16px;
+color:#555;
+}
+
+#strengthBar{
+font-size:18px;
+margin-top:5px;
+}
+
+#strengthText{
+font-size:13px;
+margin-bottom:10px;
+}
+
+#phoneError,
+#emailError{
+font-size:13px;
+margin-bottom:10px;
+color: red;
+}
+
+#error{
+font-size:13px;
+margin-top:5px;
+}
+
+span{
+cursor:pointer;
+margin-left:10px;
+}
+
+/* SOCIAL BUTTONS */
+
+.social{
+display:flex;
+gap:10px;
+margin-top:10px;
+}
+
+.social button{
+flex:1;
+background:#e0e0e0;
+border:none;
+padding:10px;
+border-radius:6px;
+cursor:pointer;
+font-weight:500;
+color:black;
+}
+
+.social button:hover{
+background:#d5d5d5;
+}
+
+/* LOGIN LINK */
+
+.login-link{
+margin-top:10px;
+font-size:14px;
+}
+#resetEmailError,
+#resetPasswordError,
+#resetConfirmError{
+font-size:12px;
+margin-bottom:5px;
+}
+
+body{
+margin:0;
+padding-top:30px;
+}

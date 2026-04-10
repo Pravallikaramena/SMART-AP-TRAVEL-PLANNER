@@ -1,0 +1,145 @@
+TRAVEL PLANNER PROJECT – SETUP & RUN GUIDE
+
+----------------------------------------
+
+1. SYSTEM REQUIREMENTS
+
+- Python 3.8 or above must be installed
+- Internet connection is required
+- pip should be working
+
+
+----------------------------------------
+
+2. REQUIRED LIBRARIES INSTALLATION
+
+Run these commands in CMD / Terminal:
+
+pip install flask
+pip install pandas
+pip install numpy
+pip install requests
+pip install matplotlib
+pip install scikit-learn
+pip install geopy
+
+OR (single command):
+
+pip install flask pandas numpy requests matplotlib scikit-learn geopy
+
+
+----------------------------------------
+
+3. HOW TO RUN THE PROJECT
+
+Step 1:
+Open CMD / Terminal
+
+Step 2:
+Go to project folder
+
+cd travel_planner
+
+Step 3:
+Run the project
+
+python app.py
+
+Step 4:
+Open browser and go to:
+
+http://127.0.0.1:5000
+
+
+----------------------------------------
+
+HOW THE PROJECT WORKS
+
+----------------------------------------
+
+1. HOME PAGE
+
+- When the website opens, Home page is displayed
+- It contains:
+  Popular destinations
+  Features
+  Basic information
+
+- User does not have full access
+
+
+----------------------------------------
+
+2. HOW IT WORKS PAGE
+
+- Explains how the system works
+- Shows features and process details
+
+
+----------------------------------------
+
+3. REGISTER & LOGIN
+
+- User must register first
+- Then login
+
+- Full access is available only after login
+
+
+----------------------------------------
+
+4. DATA UPLOAD & MODEL TRAINING
+
+- User uploads dataset
+- Then trains the model
+
+- Only after training:
+  Charts
+  Performance analysis
+  Results will be visible
+
+
+----------------------------------------
+
+5. ANALYSIS OUTPUT
+
+- After model training:
+  Graphs are displayed
+  Performance metrics are shown
+  Insights are generated
+
+
+----------------------------------------
+
+6. PLAN TRIP
+
+- User clicks on "Plan Trip"
+
+- System:
+  Detects current location
+  Gives destination suggestions
+
+
+----------------------------------------
+
+7. FINAL OUTPUT
+
+- Travel plan is generated
+- Weather details are shown
+- Nearby hotels are recommended
+
+
+----------------------------------------
+
+FINAL FLOW (SHORT)
+
+1. Open website
+2. Register
+3. Login
+4. Upload data
+5. Train model
+6. View analysis
+7. Plan trip
+8. Get recommendations
+
+----------------------------------------

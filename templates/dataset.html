@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Upload Dataset</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='dataset.css') }}">
+
+</head>
+
+<body>
+
+{% include "navbar.html" %}
+<button onclick="location.href='/'" class="back-btn">Back</button>
+
+<h2 class="title">Upload Tourism Dataset</h2>
+
+<!-- Upload Form -->
+<form action="/upload_dataset" method="POST" enctype="multipart/form-data" class="upload-form">
+
+<label class="file-label">
+<input type="file" name="dataset" id="datasetFile" required>
+<span id="fileName">Choose Dataset</span>
+</label>
+
+<div class="button-group-inline">
+<button type="submit" class="upload-btn">Upload Dataset</button>
+<a href="/reset_dataset" class="clear-btn">Clear All</a>
+</div>
+
+</form>
+
+
+<!-- Dataset Preview -->
+{% if tables %}
+
+<div class="preview-header">
+<h2 class="preview-title">Dataset Preview</h2>
+
+<div class="header-actions">
+<span class="row-badge">Total Rows: {{ total_rows }}</span>
+</div>
+
+</div>
+
+<div class="table-box">
+{{ tables | safe }}
+</div>
+
+
+<!-- TRAIN BUTTON -->
+<div class="train-section">
+
+<form id="trainForm" action="/train_model" method="POST">
+
+<button type="submit" class="train-btn-lg">
+🚀 Train Model
+</button>
+
+</form>
+
+</div>
+
+
+<!-- PIPELINE -->
+<div id="pipelineBox" class="ml-pipeline" style="display:none;">
+
+<h3 class="pipeline-title">Finalizing Results...</h3>
+
+<div class="pipeline-steps">
+
+<div class="circle active" id="p1">Dataset</div>
+<div class="arrow">➜</div>
+
+<div class="circle" id="p2">Pre-processing</div>
+<div class="arrow">➜</div>
+
+<div class="circle" id="p3">Training</div>
+<div class="arrow">➜</div>
+
+<div class="circle" id="p4">Testing</div>
+<div class="arrow">➜</div>
+
+<div class="circle result" id="p5">Result</div>
+
+</div>
+
+<div class="loader2"></div>
+
+</div>
+
+
+<!-- SUCCESS MESSAGE -->
+<div id="successBox" class="success-box" style="display:none;">
+
+<div class="success-icon">✔</div>
+
+<div class="success-text">
+Model Trained Successfully
+</div>
+
+<a href="/plan">
+<button class="trip-btn">
+Go To Plan Trip
+</button>
+</a>
+
+
+</div>
+
+{% endif %}
+
+<!-- Custom JS -->
+<script src="{{ url_for('static', filename='dataset.js') }}"></script>
+
+</body>
+</html>

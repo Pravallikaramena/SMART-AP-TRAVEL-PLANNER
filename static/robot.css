@@ -1,0 +1,109 @@
+/* Cute Floating AI Robot Styles */
+#ai-robot-container {
+    position: fixed;
+    z-index: 9999;
+    top: -150px; /* Start hidden off-screen */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    opacity: 0;
+    pointer-events: none; /* Ignore clicks initially */
+}
+
+#ai-robot-container.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* The Robot */
+#robot-mascot {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+    border-radius: 40% 40% 45% 45%;
+    position: relative;
+    box-shadow: 0 10px 25px rgba(0, 162, 255, 0.4);
+    border: 3px solid white;
+}
+
+/* Robot Eyes */
+#robot-mascot::after {
+    content: '';
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    width: 20px;
+    height: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 30px 0 0 #fff;
+}
+
+/* Robot Antenna */
+#robot-mascot::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 38px;
+    width: 4px;
+    height: 20px;
+    background: #fff;
+    box-shadow: 0 -5px 0 4px #ffeb3b;
+    border-radius: 2px;
+}
+
+/* Cute Floating Animation */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+@keyframes blink {
+    0%, 96%, 98%, 100% { height: 10px; transform: translateY(0); }
+    97%, 99% { height: 2px; transform: translateY(4px); }
+}
+
+/* Fancy Speech Bubble */
+#robot-speech {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    max-width: 250px;
+    position: relative;
+    border: 2px solid #00d2ff;
+}
+
+#robot-speech::before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 10px 15px 10px 0;
+    border-style: solid;
+    border-color: transparent white transparent transparent;
+}
+
+#robot-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #00d2ff;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+#robot-btn:hover {
+    background: #3a7bd5;
+}

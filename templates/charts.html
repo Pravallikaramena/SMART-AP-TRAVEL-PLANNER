@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Model Accuracy Chart</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='charts.css') }}">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+{% include "navbar.html" %}
+<button onclick="location.href='/dataset'" class="back-btn">Back</button>
+
+<div class="chart-page">
+    {% if trained %}
+    <div class="best-model-box">
+        Best Model Accuracy is {{best_acc}}% ({{best_model}})
+    </div>
+
+    <h2 class="chart-title">Algorithm Accuracy Comparison</h2>
+
+    <div class="chart-container">
+        <canvas id="accuracyChart"></canvas>
+    </div>
+
+    <script>
+        const rf = {{ rf | default(0) }};
+        const knn = {{ knn | default(0) }};
+
+        const ctx = document.getElementById("accuracyChart");
+
+        new Chart(ctx, {
+            type: "bar",
+            data: {
+                labels: ["Random Forest", "KNN"],
+                datasets: [{
+                    label: "Accuracy (%)",
+                    data: [rf, knn],
+                    backgroundColor: ["#2ecc71","#3498db"]
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { display: true }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 100
+                    }
+                }
+            }
+        });
+    </script>
+    {% else %}
+    <div class="warning-container" style="text-align: center; margin-top: 100px; padding: 40px; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(0, 0, 0, 0.1); box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); max-width: 600px; margin-left: auto; margin-right: auto;">
+        {% if dataset_present %}
+        <i class="fas fa-database" style="font-size: 60px; color: #2ecc71; margin-bottom: 20px;"></i>
+        <h2 style="color: #2c3e50; margin-bottom: 15px; font-weight: 800;">Dataset Detected! ✅</h2>
+        <p style="color: #555; margin-bottom: 30px; font-size: 1.1rem; line-height: 1.6;">You have uploaded the dataset, but you must <strong>Train the AI Model</strong> before the accuracy charts can be generated.</p>
+        <button onclick="location.href='/dataset'" style="padding: 15px 35px; background: linear-gradient(135deg, #27ae60, #2ecc71); color: white; border: none; border-radius: 30px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(39, 174, 96, 0.4);">
+            <i class="fas fa-rocket"></i> Go to Train Model Page
+        </button>
+        {% else %}
+        <i class="fas fa-exclamation-triangle" style="font-size: 60px; color: #f39c12; margin-bottom: 20px;"></i>
+        <h2 style="color: #2c3e50; margin-bottom: 15px; font-weight: 700;">No Dataset Uploaded</h2>
+        <p style="color: #555; margin-bottom: 30px; font-size: 1.1rem; line-height: 1.6;">To visualize the performance charts, please upload a dataset and train the AI model first.</p>
+        <button onclick="location.href='/dataset'" style="padding: 12px 30px; background: linear-gradient(135deg, #3498db, #2980b9); color: white; border: none; border-radius: 30px; font-size: 1rem; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+            <i class="fas fa-upload"></i> Go to Upload Page
+        </button>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>

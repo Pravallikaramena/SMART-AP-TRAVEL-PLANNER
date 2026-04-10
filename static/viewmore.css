@@ -1,0 +1,131 @@
+
+/* ===== RESET ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    overflow-x: hidden; /* FIX navbar shift */
+}
+
+/* Redundant navbar styles removed to use global navbar.css */
+
+/* ===== BACK BUTTON ===== */
+.back-btn {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.back-btn:hover {
+    background: #0056b3;
+}
+
+/* ===== TITLE ===== */
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: #0d47a1;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ===== CARDS WRAPPER ===== */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* FIX alignment */
+    gap: 25px;
+    padding: 30px;
+}
+
+/* ===== CARD DESIGN ===== */
+.card {
+    background: #f2f2f2;
+    border-radius: 15px;
+    padding: 20px;
+    width: 260px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ===== TEXT STYLES ===== */
+.card h3 {
+    color: #1565c0;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+/* ===== MAP LINK ===== */
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0d47a1;
+    font-weight: bold;
+}
+
+.card .btn-nearby {
+    color: white !important;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+.view-btn {
+    background: #007BFF;
+    color: white;
+
+    padding: 8px 16px;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-decoration: none;   /* 🔥 for anchor */
+    display: inline-block;   /* 🔥 clickable area */
+
+    cursor: pointer;
+
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+
+.view-btn:hover {
+    background: #0056b3;
+}
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .back-btn {
+        top: 70px;
+        left: 10px;
+    }
+}

@@ -1,0 +1,178 @@
+State,City,Tourist_Spot,Category,Located_In_Area,Latitude,Longitude
+Andhra Pradesh,Rajamahendravaram,Pushkar Ghat,Spiritual/River,Godavari Bund Road,17.0035,81.7744
+Andhra Pradesh,Rajamahendravaram,Godavari Arch Bridge,Modern Wonder,Havelock Bridge Area,17.0005,81.804
+Andhra Pradesh,Rajamahendravaram,Iskcon Temple,Spiritual,Gowthami Ghat,17.02,81.79
+Andhra Pradesh,Rajamahendravaram,Sir Arthur Cotton Museum,Heritage/Museum,Dowleswaram,16.9405,81.7825
+Andhra Pradesh,Rajamahendravaram,Kadiyam Nurseries,Nature,Kadiyam,16.9189,81.8488
+Andhra Pradesh,Visakhapatnam,RK Beach,Nature/Beach,Pandurangapuram,17.7142,83.3235
+Andhra Pradesh,Visakhapatnam,Rushikonda Beach,Nature/Beach,Rushikonda,17.7818,83.3853
+Andhra Pradesh,Visakhapatnam,Kailasagiri,Nature/Scenic,Kailasagiri Hill,17.7674,83.3421
+Andhra Pradesh,Visakhapatnam,INS Kursura Submarine Museum,Museum,RK Beach Road,17.7161,83.3308
+Andhra Pradesh,Visakhapatnam,Borra Caves,Nature/Caves,Ananthagiri Hills,18.281,83.0396
+Andhra Pradesh,Visakhapatnam,Araku Valley,Nature/Hill Station,Araku,18.3333,82.8667
+Andhra Pradesh,Tirupati,Tirumala Venkateswara Temple,Spiritual,Tirumala Hills,13.6833,79.35
+Andhra Pradesh,Tirupati,Sri Kalahasteeswara Temple,Spiritual,Srikalahasti,13.7533,79.6983
+Andhra Pradesh,Tirupati,Chandragiri Fort,Heritage/Fort,Chandragiri,13.5833,79.3167
+Andhra Pradesh,Vijayawada,Kanaka Durga Temple,Spiritual,Indrakeeladri,16.5134,80.6054
+Andhra Pradesh,Vijayawada,Undavalli Caves,Heritage/Caves,Undavalli,16.4965,80.5802
+Andhra Pradesh,Vijayawada,Prakasam Barrage,Monument,Krishna River Front,16.5073,80.605
+Andhra Pradesh,Vijayawada,Bhavani Island,Nature/Island,Bhavanipuram,16.5218,80.5866
+Andhra Pradesh,Kurnool,Belum Caves,Nature/Caves,Kolimigundla,15.1026,78.1116
+Andhra Pradesh,Kurnool,Oravakallu Rock Garden,Nature,Orvakal,15.7005,78.1884
+Andhra Pradesh,Kurnool,Yaganti Temple,Spiritual,Banaganapalli,15.3197,78.1408
+Andhra Pradesh,Kadapa,Gandikota Fort,Heritage/Fort,Gandikota (Grand Canyon of India),14.8153,78.2854
+Andhra Pradesh,Anantapur,Lepakshi Temple,Heritage,Lepakshi,13.8016,77.6069
+Andhra Pradesh,Anantapur,Prasanthi Nilayam,Spiritual,Puttaparthi,14.1643,77.8108
+Andhra Pradesh,Srisailam,Mallikarjuna Jyotirlinga,Spiritual,Srisailam Hills,16.0733,78.8686
+Delhi,New Delhi,India Gate,Monument,Rajpath / Kartavya Path,28.6129,77.2295
+Delhi,New Delhi,Qutub Minar,Heritage,Mehrauli,28.5244,77.1855
+Delhi,New Delhi,Red Fort,Heritage,Chandni Chowk,28.6562,77.241
+Delhi,New Delhi,Humayun's Tomb,Heritage,Nizamuddin East,28.5933,77.2507
+Delhi,New Delhi,Lotus Temple,Spiritual,Kalkaji,28.5535,77.2588
+Delhi,New Delhi,Akshardham Temple,Spiritual,Pandav Nagar,28.6127,77.2773
+Delhi,New Delhi,Jantar Mantar,Heritage,Connaught Place,28.6271,77.2166
+Delhi,New Delhi,Lodhi Gardens,Nature/Heritage,Lodhi Estate,28.5931,77.2197
+Delhi,New Delhi,Jama Masjid,Spiritual,Chandni Chowk,28.6507,77.2334
+Maharashtra,Mumbai,Gateway of India,Monument,Colaba,18.922,72.8347
+Maharashtra,Mumbai,Marine Drive,Cityscape,Marine Lines,18.944,72.8207
+Maharashtra,Mumbai,Elephanta Caves,Heritage,Elephanta Island,18.9633,72.9315
+Maharashtra,Mumbai,Chhatrapati Shivaji Maharaj Terminus,Heritage,Fort Area,18.94,72.8347
+Maharashtra,Aurangabad,Ajanta Caves,Heritage/Caves,Ajanta Village,20.5519,75.7033
+Maharashtra,Aurangabad,Ellora Caves,Heritage/Caves,Ellora Village,20.0268,75.1771
+Maharashtra,Aurangabad,Bibi Ka Maqbara,Heritage,Begumpura,19.9015,75.3202
+Maharashtra,Pune,Shaniwar Wada,Heritage,Shaniwar Peth,18.5195,73.8553
+Maharashtra,Pune,Aga Khan Palace,Heritage,Kalyani Nagar,18.5523,73.9015
+Maharashtra,Lonavala,Bhushi Dam,Nature,INS Shivaji Road,18.7291,73.3986
+Maharashtra,Mahabaleshwar,Pratapgad Fort,Heritage,Pratapgad,17.9262,73.5768
+Maharashtra,Shirdi,Sai Baba Temple,Spiritual,Shirdi Nagar,19.7668,74.4796
+Rajasthan,Jaipur,Amber Palace,Heritage/Fort,Amer,26.9855,75.8513
+Rajasthan,Jaipur,Hawa Mahal,Heritage,Badi Choupad,26.9239,75.8267
+Rajasthan,Jaipur,City Palace,Heritage,Jaleb Chowk,26.9255,75.8236
+Rajasthan,Jaipur,Jal Mahal,Heritage,Man Sagar Lake,26.953,75.8463
+Rajasthan,Jaipur,Nahargarh Fort,Heritage/Fort,Brahampuri,26.9373,75.8155
+Rajasthan,Jodhpur,Mehrangarh Fort,Heritage/Fort,Sodagaran,26.298,73.0188
+Rajasthan,Jodhpur,Umaid Bhawan Palace,Heritage,Cantonment Area,26.2797,73.047
+Rajasthan,Udaipur,City Palace,Heritage,Old City,24.5764,73.6835
+Rajasthan,Udaipur,Lake Pichola,Nature,Pichola,24.5726,73.6773
+Rajasthan,Jaisalmer,Jaisalmer Fort,Heritage/Fort,Manak Chowk,26.9124,70.9123
+Rajasthan,Pushkar,Brahma Temple,Spiritual,Pushkar Lake Area,26.4892,74.5511
+Rajasthan,Chittorgarh,Chittorgarh Fort,Heritage/Fort,Chittorgarh Fort Area,24.8829,74.6465
+Rajasthan,Sawai Madhopur,Ranthambore National Park,Wildlife,Prempura,26.0173,76.5026
+Kerala,Munnar,Tea Gardens,Nature/Scenic,Kannan Devan Hills,10.0889,77.0595
+Kerala,Munnar,Mattupetty Dam,Nature,Mattupetty,10.1054,77.1245
+Kerala,Alappuzha,Alleppey Backwaters,Nature/Boating,Punnamada,9.4981,76.3388
+Kerala,Kochi,Fort Kochi,Heritage/Coastal,Fort Kochi,9.9658,76.2421
+Kerala,Kochi,Mattancherry Palace,Heritage,Mattancherry,9.9582,76.2593
+Kerala,Wayanad,Edakkal Caves,Nature/History,Nenmeni,11.6266,76.2344
+Kerala,Wayanad,Banasura Sagar Dam,Nature,Padinjarathara,11.6669,75.9576
+Kerala,Thiruvananthapuram,Padmanabhaswamy Temple,Spiritual,Fort Area,8.483,76.9436
+Kerala,Thiruvananthapuram,Kovalam Beach,Nature/Beach,Kovalam,8.4004,76.9787
+Kerala,Thekkady,Periyar National Park,Wildlife,Kumily,9.4679,77.1432
+Kerala,Thrissur,Athirappilly Waterfalls,Nature/Waterfall,Athirappilly,10.2847,76.5695
+Kerala,Kasaragod,Bekal Fort,Heritage/Fort,Bekal,12.395,75.0326
+Tamil Nadu,Chennai,Marina Beach,Nature/Beach,Triplicane,13.05,80.2824
+Tamil Nadu,Chennai,Kapaleeshwarar Temple,Spiritual,Mylapore,13.0335,80.2698
+Tamil Nadu,Madurai,Meenakshi Amman Temple,Spiritual,Madurai Main,9.9195,78.1193
+Tamil Nadu,Madurai,Thirumalai Nayakkar Mahal,Heritage,Mahal Area,9.915,78.1232
+Tamil Nadu,Mahabalipuram,Shore Temple,Heritage,Mahabalipuram,12.6166,80.1985
+Tamil Nadu,Mahabalipuram,Pancha Rathas,Heritage,Coromandel Coast,12.6095,80.1895
+Tamil Nadu,Ooty,Botanical Garden,Nature,Vannarapettai,11.4189,76.7115
+Tamil Nadu,Ooty,Ooty Lake,Nature,West Mere,11.4022,76.6853
+Tamil Nadu,Kodaikanal,Kodaikanal Lake,Nature,Kodaikanal Town,10.2335,77.493
+Tamil Nadu,Rameswaram,Ramanathaswamy Temple,Spiritual,Rameswaram Island,9.2881,79.3174
+Tamil Nadu,Rameswaram,Dhanushkodi Beach,Nature/Beach,Dhanushkodi,9.1557,79.4447
+Tamil Nadu,Kanyakumari,Vivekananda Rock Memorial,Monument,Kanyakumari Beach,8.078,77.5553
+Tamil Nadu,Thanjavur,Brihadeeswarar Temple,Spiritual/Heritage,Membalam Road,10.7828,79.1318
+Uttar Pradesh,Agra,Taj Mahal,Heritage/Wonder,Tajganj,27.1751,78.0421
+Uttar Pradesh,Agra,Agra Fort,Heritage,Rakabganj,27.1795,78.0211
+Uttar Pradesh,Agra,Fatehpur Sikri,Heritage,Fatehpur Sikri,27.0945,77.6679
+Uttar Pradesh,Varanasi,Kashi Vishwanath Temple,Spiritual,Lahori Tola,25.3109,83.0107
+Uttar Pradesh,Varanasi,Dashashwamedh Ghat,Cultural/Spiritual,Godowlia,25.3068,83.0106
+Uttar Pradesh,Varanasi,Sarnath,Spiritual/Heritage,Sarnath,25.3762,83.0227
+Uttar Pradesh,Lucknow,Bara Imambara,Heritage,Husainabad,26.8615,80.9162
+Uttar Pradesh,Lucknow,Rumi Darwaza,Monument,Husainabad,26.8625,80.9135
+Uttar Pradesh,Mathura,Shri Krishna Janmasthan,Spiritual,Deeg Marg,27.505,77.6706
+Uttar Pradesh,Vrindavan,Banke Bihari Temple,Spiritual,Raman Reti,27.5794,77.6917
+Karnataka,Bengaluru,Lalbagh Botanical Garden,Nature,Mavalli,12.9507,77.5848
+Karnataka,Bengaluru,Bangalore Palace,Heritage,Vasanth Nagar,12.9988,77.5921
+Karnataka,Bengaluru,Cubbon Park,Nature,Kasturba Road,12.9765,77.5959
+Karnataka,Mysuru,Mysore Palace,Heritage,Agrahara,12.3051,76.6551
+Karnataka,Mysuru,Chamundeshwari Temple,Spiritual,Chamundi Hills,12.2737,76.6713
+Karnataka,Mysuru,Brindavan Gardens,Nature,KRS Dam Road,12.4241,76.5741
+Karnataka,Hampi,Virupaksha Temple,Heritage,Hampi Bazaar,15.335,76.46
+Karnataka,Hampi,Vittala Temple,Heritage,Hampi Ruins,15.3385,76.4746
+Karnataka,Coorg,Abbey Falls,Nature/Waterfall,Madikeri,12.4614,75.7174
+Karnataka,Coorg,Raja's Seat,Nature/Scenic,Stuart Hill,12.418,75.7335
+Karnataka,Gokarna,Om Beach,Nature/Beach,Gokarna,14.5195,74.3168
+Karnataka,Badami,Badami Cave Temples,Heritage/Caves,Badami Town,15.9189,75.6811
+West Bengal,Kolkata,Victoria Memorial,Heritage/Museum,Maidan,22.5448,88.3426
+West Bengal,Kolkata,Howrah Bridge,Monument,Howrah,22.5851,88.3468
+West Bengal,Kolkata,Dakshineswar Kali Temple,Spiritual,Dakshineswar,22.6548,88.3575
+West Bengal,Darjeeling,Tiger Hill,Nature/Scenic,Senchal Forest,26.9961,88.257
+West Bengal,Darjeeling,Darjeeling Himalayan Railway,Heritage,Ghum,27.0089,88.2587
+West Bengal,Sundarbans,Sundarbans National Park,Wildlife,Dayapur,21.9497,89.1833
+Goa,North Goa,Baga Beach,Nature/Beach,Baga,15.5528,73.7517
+Goa,North Goa,Calangute Beach,Nature/Beach,Calangute,15.5483,73.7601
+Goa,North Goa,Aguada Fort,Heritage/Fort,Sinquerim,15.4986,73.7663
+Goa,North Goa,Anjuna Beach,Nature/Beach,Anjuna,15.575,73.7405
+Goa,South Goa,Palolem Beach,Nature/Beach,Palolem,15.0099,74.0232
+Goa,South Goa,Colva Beach,Nature/Beach,Colva,15.282,73.9113
+Goa,Old Goa,Basilica of Bom Jesus,Spiritual/Heritage,Bainguinim,15.5009,73.9116
+Goa,Old Goa,Se Cathedral,Spiritual/Heritage,Velha Goa,15.5034,73.9116
+Gujarat,Kevadia,Statue of Unity,Monument,Kevadia Colony,21.838,73.7191
+Gujarat,Ahmedabad,Sabarmati Ashram,Heritage,Ashram Road,23.0606,72.58
+Gujarat,Ahmedabad,Adalaj Stepwell,Heritage,Adalaj,23.1664,72.5802
+Gujarat,Rann of Kutch,White Desert,Nature,Dhordo,23.8322,69.8597
+Gujarat,Dwarka,Dwarkadhish Temple,Spiritual,Gomti Ghat,22.2377,68.9674
+Gujarat,Somnath,Somnath Temple,Spiritual,Prabhas Patan,20.888,70.4011
+Gujarat,Gir,Gir National Park,Wildlife,Sasan Gir,21.1329,70.7933
+Himachal Pradesh,Shimla,The Ridge,Cultural/Scenic,Lakkar Bazar,31.1048,77.1744
+Himachal Pradesh,Shimla,Mall Road,Cityscape,Mall Road,31.1033,77.1722
+Himachal Pradesh,Manali,Rohtang Pass,Nature/Adventure,Rohtang,32.3716,77.2466
+Himachal Pradesh,Manali,Solang Valley,Nature/Adventure,Solang,32.3164,77.1568
+Himachal Pradesh,Dharamshala,Tsuglagkhang Complex,Spiritual,McLeod Ganj,32.2326,76.3243
+Himachal Pradesh,Dharamshala,Dal Lake (Himachal),Nature,McLeod Ganj,32.2471,76.3117
+Himachal Pradesh,Dalhousie,Khajjiar,Nature/Scenic,Khajjiar,32.5558,76.0658
+Uttarakhand,Rishikesh,Laxman Jhula,Cultural,Tapovan,30.1222,78.3246
+Uttarakhand,Rishikesh,Triveni Ghat,Spiritual,Mayakund,30.1062,78.298
+Uttarakhand,Haridwar,Har Ki Pauri,Spiritual,Haridwar Town,29.9566,78.17
+Uttarakhand,Nainital,Naini Lake,Nature,Tallital,29.3899,79.4542
+Uttarakhand,Kedarnath,Kedarnath Temple,Spiritual,Kedarnath,30.7352,79.0669
+Uttarakhand,Badrinath,Badrinath Temple,Spiritual,Badrinath,30.7433,79.4938
+Uttarakhand,Jim Corbett,Corbett National Park,Wildlife,Ramnagar,29.53,78.7747
+Jammu & Kashmir,Srinagar,Dal Lake,Nature/Boating,Boulevard Road,34.113,74.8785
+Jammu & Kashmir,Srinagar,Shalimar Bagh,Heritage/Garden,Dal Lake Area,34.1492,74.8732
+Jammu & Kashmir,Gulmarg,Gulmarg Gondola,Adventure,Gulmarg,34.0484,74.3805
+Ladakh,Leh,Pangong Tso,Nature/Lake,Spangmik,33.7297,78.8984
+Ladakh,Leh,Nubra Valley,Nature/Scenic,Diskit,34.5517,77.5629
+Ladakh,Leh,Thiksey Monastery,Spiritual,Thiksey,34.0558,77.6675
+Ladakh,Leh,Magnetic Hill,Nature,Leh-Kargil Highway,34.1724,77.3323
+Madhya Pradesh,Khajuraho,Khajuraho Group of Monuments,Heritage,Sevagram,24.8318,79.9199
+Madhya Pradesh,Gwalior,Gwalior Fort,Heritage/Fort,Fort Road,26.2298,78.165
+Madhya Pradesh,Sanchi,Sanchi Stupa,Spiritual/Heritage,Sanchi Town,23.4807,77.7397
+Madhya Pradesh,Ujjain,Mahakaleshwar Jyotirlinga,Spiritual,Jaisinghpura,23.1827,75.7682
+Madhya Pradesh,Bandhavgarh,Bandhavgarh National Park,Wildlife,Tala,23.7225,81.0264
+Punjab,Amritsar,Golden Temple,Spiritual,Atta Mandi,31.62,74.8765
+Punjab,Amritsar,Jallianwala Bagh,Monument,Town Hall,31.6205,74.8801
+Punjab,Amritsar,Wagah Border,Cultural,Attari,31.605,74.57
+Chandigarh,Chandigarh,Rock Garden,Nature/Art,Sector 1,30.7525,76.8101
+Chandigarh,Chandigarh,Sukhna Lake,Nature,Sector 1,30.7421,76.8188
+Odisha,Puri,Jagannath Temple,Spiritual,Grand Road,19.8049,85.8179
+Odisha,Puri,Puri Beach,Nature/Beach,Marine Drive Road,19.7983,85.8249
+Odisha,Konark,Konark Sun Temple,Heritage,Konark,19.8876,86.0945
+Odisha,Bhubaneswar,Lingaraja Temple,Spiritual,Old Town,20.2382,85.8338
+Odisha,Chilika,Chilika Lake,Nature/Lake,Satapada,19.7289,85.3183
+Telangana,Hyderabad,Charminar,Heritage,Old City,17.3616,78.4747
+Telangana,Hyderabad,Golconda Fort,Heritage/Fort,Ibrahim Bagh,17.3833,78.4011
+Telangana,Hyderabad,Salar Jung Museum,Museum,Darulshifa,17.3714,78.4804
+Telangana,Hyderabad,Ramoji Film City,Entertainment,Anaspur Village,17.2543,78.6808
+Telangana,Hyderabad,Hussain Sagar Lake,Nature,Tank Bund,17.4239,78.4738
+Assam,Kaziranga,Kaziranga National Park,Wildlife,Kohora Range,26.5775,93.1711
+Assam,Guwahati,Kamakhya Temple,Spiritual,Nilachal Hill,26.167,91.7051
+Meghalaya,Shillong,Elephant Falls,Nature/Waterfall,Upper Shillong,25.5357,91.8219
+Meghalaya,Cherrapunji,Nohkalikai Falls,Nature/Waterfall,Cherrapunji,25.2755,91.6865
+Sikkim,Gangtok,Nathu La Pass,Nature/Adventure,Indo-China Border,27.3866,88.831
+Sikkim,Gangtok,MG Marg,Cityscape,Main Market,27.3314,88.6138
+Bihar,Bodh Gaya,Mahabodhi Temple,Spiritual,Bodh Gaya,24.6959,84.9914
+Bihar,Nalanda,Nalanda University Ruins,Heritage,Nalanda,25.1368,85.4439
+Jharkhand,Deoghar,Baidyanath Jyotirlinga,Spiritual,Shivganga,24.4925,86.6999

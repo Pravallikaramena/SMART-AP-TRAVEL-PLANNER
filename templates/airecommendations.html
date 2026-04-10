@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Recommendations</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}?v=5">
+<link rel="stylesheet" href="{{ url_for('static', filename='planai.css') }}?v=5">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+
+<body>
+
+{% include "navbar.html" %}
+<button onclick="location.href='/plan'" class="back-btn">Back</button>
+
+
+<!-- WEATHER FORECAST -->
+
+<div class="weather-section">
+
+<h2 class="weather-title">Weather Forecast for {{weather_loc}}</h2>
+
+<div class="weather-container">
+
+{% if weather %}
+
+{% for w in weather %}
+
+<div class="weather-card">
+
+<h3>{{w.day}}</h3>
+
+<p class="date">{{w.date}}</p>
+
+
+<div class="icon">
+
+{% if w.icon == 'sun' or 'sun' in w.weather.lower() %}
+<i class="fas fa-sun sun-icon"></i>
+{% elif 'rain' in w.weather.lower() %}
+<i class="fas fa-cloud-rain rain-icon"></i>
+{% else %}
+<i class="fas fa-cloud cloud-icon"></i>
+{% endif %}
+
+</div>
+
+<p class="temp">{{w.temp}}</p>
+
+</div>
+
+{% endfor %}
+
+{% else %}
+
+<p style="text-align:center;color:white;">Weather data not available</p>
+
+{% endif %}
+
+</div>
+
+</div>
+
+
+<!-- AI RESULTS -->
+
+{% if show_results %}
+
+<h1 class="main-title">AI Travel Recommendations for {{destination}}</h1>
+
+{% if cost_estimate %}
+<div class="ai-analysis-card">
+    <div class="analysis-header">
+        <h2><i class="fas fa-magic"></i> AI Budget Analysis for {{cost_estimate.name}}</h2>
+        <div class="accuracy-badge"><i class="fas fa-check-circle"></i> 100% Accurate AI Calculation</div>
+        <p class="subtitle">Personalized cost breakdown from {{session.last_loc}}</p>
+    </div>
+    <div class="cost-grid">
+        <div class="cost-item">
+            <span class="label"><i class="fas fa-route"></i> Transport ({{cost_estimate.vehicle}})</span>
+            <span class="value">₹{{cost_estimate.transport}}</span>
+        </div>
+        <div class="cost-item">
+            <span class="label"><i class="fas fa-ticket-alt"></i> Entry Fee</span>
+            <span class="value">₹{{cost_estimate.entry}}</span>
+        </div>
+        <div class="cost-item">
+            <span class="label"><i class="fas fa-utensils"></i> Food & Snacks</span>
+            <span class="value">₹{{cost_estimate.food}}</span>
+        </div>
+        <div class="cost-item">
+            <span class="label"><i class="fas fa-coins"></i> Other Expenses</span>
+            <span class="value">₹{{cost_estimate.other}}</span>
+        </div>
+        <div class="cost-item total">
+            <span class="label">Estimated Total (100% Accurate)</span>
+            <span class="value">₹{{cost_estimate.total}}</span>
+        </div>
+    </div>
+    <div class="ai-suggestion">
+        <p><i class="fas fa-lightbulb"></i> <strong>AI Tip:</strong> This trip is roughly {{cost_estimate.dist}} km. We recommend starting early to avoid traffic and enjoy the spot fully!</p>
+    </div>
+</div>
+{% endif %}
+
+<!-- NAVIGATION SECTION -->
+<div class="navigation-section">
+    <div class="nav-container">
+        <div class="nav-card view-itinerary">
+            <i class="fas fa-calendar-days"></i>
+            <h3>View Complete Itinerary</h3>
+            <p>See your full day-by-day travel plan with breakfast, lunch, dinner, activities, and hotels.</p>
+            <a href="/itinerary_plan" class="nav-btn">
+                <i class="fas fa-arrow-right"></i> View Itinerary
+            </a>
+        </div>
+        <div class="nav-card view-budget">
+            <i class="fas fa-credit-card"></i>
+            <h3>Budget Overview</h3>
+            <p>See all recommended places sorted by affordability and rating for your budget.</p>
+            <a href="javascript:void(0)" onclick="showBudget()" class="nav-btn">
+                <i class="fas fa-arrow-right"></i> View Budget
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- TOURIST PLACES SECTION -->
+<div class="section" id="tourist-places" style="display:none;">
+
+<h2>Budget-Aware Recommendations in {{destination}}</h2>
+
+<p style="text-align:center;color:#666;margin-bottom:30px;">
+    <i class="fas fa-info-circle"></i> Showing top {{places|length}} recommended places for your ₹{{session.last_budget}} budget
+</p>
+
+<div class="cards" id="placesCards">
+
+{% for place in places[:5] %}
+
+<div class="card">
+
+    {% if place.is_affordable %}
+    <span class="affordability-badge affordable"><i class="fas fa-check"></i> Within Budget</span>
+    {% else %}
+    <span class="affordability-badge over-budget"><i class="fas fa-exclamation-triangle"></i> Over Budget</span>
+    {% endif %}
+
+    <h3><i class="fas fa-map-marker-alt"></i> {{place.place}}</h3>
+
+    <p><i class="fas fa-info-circle"></i> Location: {{place.area}}</p>
+
+    <p><i class="fas fa-star"></i> Rating: {{place.rating}}</p>
+
+    <p><i class="fas fa-ticket-alt"></i> Entry Fee: 
+        <span class="{% if place.entry_fee == 'Free' %}free-badge{% endif %}">
+            {{place.entry_fee}}
+        </span>
+    </p>
+
+    <span class="card-cost-tag">Est. Trip Cost: <b>₹{{place.est_cost}}</b></span>
+
+    <p>Distance 🚗 {{place.distance}} km</p>
+
+{% if place.time %}
+<p>Travel Time ⏱ {{place.time}} mins</p>
+{% endif %}
+
+<div class="actions">
+    <a target="_blank" class="btn"
+    href="https://www.google.com/maps/search/{{place.place}},+{{destination}},+Andhra+Pradesh/@{{place.lat}},{{place.lon}},16z">
+    Map 🗺
+    </a>
+    <a href="{{ url_for('ai_recommendations', target_place=place.place) }}" class="btn-nearby">
+    Generate AI Plan 🚀
+    </a>
+</div>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+<!-- VIEW MORE PLACES BUTTON -->
+{% if all_places|length > 5 %}
+<div class="view-more-section" style="text-align: center; margin: 30px 0;">
+    <a href="/all_places" class="view-more-btn">
+        <i class="fas fa-plus-circle"></i> View All {{all_places|length}} Places
+    </a>
+</div>
+{% endif %}
+<!-- SECONDARY SECTIONS (Hidden until spot selected) -->
+{% if request.args.get('target_place') %}
+
+<!-- HOTELS -->
+
+<div class="section">
+
+<h2>Recommended Hotels for {{request.args.get('target_place')}}</h2>
+
+<div class="cards">
+
+{% if hotels %}
+
+{% for hotel in hotels %}
+
+<div class="card">
+
+<h3><i class="fas fa-hotel"></i> {{hotel.hotel}}</h3>
+
+<p><i class="fas fa-star"></i> Rating: {{hotel.rating}}</p>
+
+{% if hotel.dist %}
+<p class="dist-tag"><i class="fas fa-location-arrow"></i> {{hotel.dist}} km away</p>
+{% endif %}
+
+<p><i class="fas fa-map-marker-alt"></i> {{hotel.address}}</p>
+
+<p><i class="fas fa-tag"></i> {{hotel.price}}</p>
+
+<a target="_blank" class="btn" style="margin-top: 10px; display: inline-block; padding: 5px 10px;"
+href="https://www.google.com/maps/search/?api=1&query={{hotel.hotel}}+{{hotel.address}}">
+Map 🗺
+</a>
+
+</div>
+
+{% endfor %}
+
+{% else %}
+<p class="no-data">No specific hotel data available for this location.</p>
+{% endif %}
+
+</div>
+
+</div>
+
+
+<!-- EATERIES / DINING PLAN -->
+
+<div class="section">
+
+<h2>Daily Dining Plan for {{request.args.get('target_place')}}</h2>
+
+<h3 class="subsection-title"><i class="fas fa-coffee"></i> Breakfast & Tiffins</h3>
+<div class="cards">
+{% for t in tiffins %}
+<div class="card">
+    <h3>{{t.name}}</h3>
+    {% if t.dist %}
+    <p class="dist-tag"><i class="fas fa-location-arrow"></i> {{t.dist}} km away</p>
+    {% endif %}
+    <p><i class="fas fa-star"></i> Rating: {{t.rating}}</p>
+    <p><i class="fas fa-map-marker-alt"></i> {{t.address}}</p>
+    <a target="_blank" class="btn" style="margin-top: 10px; display: inline-block; padding: 5px 10px;"
+    href="https://www.google.com/maps/search/?api=1&query={{t.name}}+{{t.address}}">
+    Map 🗺
+    </a>
+</div>
+{% endfor %}
+</div>
+
+<h3 class="subsection-title"><i class="fas fa-utensils"></i> Lunch Specials</h3>
+<div class="cards">
+{% for l in lunches %}
+<div class="card">
+    <h3>{{l.name}}</h3>
+    {% if l.dist %}
+    <p class="dist-tag"><i class="fas fa-location-arrow"></i> {{l.dist}} km away</p>
+    {% endif %}
+    <p><i class="fas fa-star"></i> Rating: {{l.rating}}</p>
+    <p><i class="fas fa-map-marker-alt"></i> {{l.address}}</p>
+    <a target="_blank" class="btn" style="margin-top: 10px; display: inline-block; padding: 5px 10px;"
+    href="https://www.google.com/maps/search/?api=1&query={{l.name}}+{{l.address}}">
+    Map 🗺
+    </a>
+</div>
+{% endfor %}
+</div>
+
+<h3 class="subsection-title"><i class="fas fa-moon"></i> Dinner & Restaurants</h3>
+<div class="cards">
+{% for d in dinners %}
+<div class="card">
+    <h3>{{d.name}}</h3>
+    <p><i class="fas fa-star"></i> Rating: {{d.rating}}</p>
+    {% if d.dist %}
+    <p class="dist-tag"><i class="fas fa-location-arrow"></i> {{d.dist}} km away</p>
+    {% endif %}
+    <p><i class="fas fa-map-marker-alt"></i> {{d.address}}</p>
+    <a target="_blank" class="btn" style="margin-top: 10px; display: inline-block; padding: 5px 10px;"
+    href="https://www.google.com/maps/search/?api=1&query={{d.name}}+{{d.address}}">
+    Map 🗺
+    </a>
+</div>
+{% endfor %}
+</div>
+
+</div>
+
+
+<!-- EMERGENCY -->
+
+<div class="section">
+
+<h2>Emergency Services near {{request.args.get('target_place')}}</h2>
+
+<div class="cards">
+
+{% for e in emergency %}
+
+<div class="card">
+
+<h3>{{e.name}}</h3>
+
+<p>Service : {{e.type}}</p>
+
+<p>Distance 🚑 {{e.distance}} km</p>
+
+<a target="_blank" class="btn" style="margin-top: 10px; display: inline-block; padding: 5px 10px;"
+href="https://www.google.com/maps/search/?api=1&query={{e.name}}+{{e.address}}">
+Open Map 🚑
+</a>
+
+</div>
+
+{% endfor %}
+
+</div>
+
+</div>
+
+{% endif %}
+
+{% endif %}
+
+<script>
+
+function showBudget() {
+    let section = document.getElementById("tourist-places");
+    section.style.display = "block";
+
+    section.scrollIntoView({ behavior: "smooth" });
+}
+
+function toggleViewMore() {
+    const hiddenPlaces = document.getElementById('hiddenPlaces');
+    const viewMoreSection = document.querySelector('.view-more-section');
+    const hideMoreSection = document.getElementById('hideMoreSection');
+    
+    if (hiddenPlaces && hiddenPlaces.style.display === 'none') {
+        hiddenPlaces.style.display = 'grid';
+        if (viewMoreSection) viewMoreSection.style.display = 'none';
+        if (hideMoreSection) hideMoreSection.style.display = 'block';
+    } else if (hiddenPlaces) {
+        hiddenPlaces.style.display = 'none';
+        if (viewMoreSection) viewMoreSection.style.display = 'block';
+        if (hideMoreSection) hideMoreSection.style.display = 'none';
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Smart AP Travel Planner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <style>
+        .about-content {
+            max-width: 900px;
+            margin: 130px auto;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .about-title {
+            font-size: 2.5rem;
+            color: #1a2a6c;
+            margin-bottom: 20px;
+        }
+        .about-text {
+            font-size: 1.1rem;
+            color: #444;
+            line-height: 1.8;
+            margin-bottom: 40px;
+        }
+        .robot-trigger-btn {
+            background: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+            color: white;
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .robot-trigger-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(58, 123, 213, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    {% include "navbar.html" %}
+
+    <div class="about-content">
+        <h1 class="about-title">About Our Mission 🚀</h1>
+        <p class="about-text">
+            The <b>Smart AP Travel Planner</b> is a state-of-the-art AI-driven platform designed to revolutionize how you explore the beautiful state of Andhra Pradesh. 
+            We combine high-precision GIS data, curated landmark mappings, and advanced Machine Learning models to provide you with the most accurate, real-time travel recommendations.
+            Whether you're looking for hidden waterfalls in Araku or the majestic temples of Tirupati, our AI works tirelessly to ensure your journey is seamless.
+        </p>
+        
+        <button class="robot-trigger-btn" onclick="startAITutorial(event)">
+            Explain Process with AI Robot 🤖
+        </button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View More Places</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='planai.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='viewmore.css') }}">
+
+</head>
+
+<body>
+
+{% include "navbar.html" %}
+
+<button onclick="window.history.back()" class="back-btn">Back</button>
+
+<h1 style="text-align:center;">More Places in {{city}}</h1>
+
+<div class="cards">
+
+{% for p in places %}
+
+<div class="card">
+    <h3>{{p.place}}</h3>
+    <p><strong>Area:</strong> {{p.area}} | ⭐ {{p.rating}} | 
+        <i class="fas fa-ticket-alt"></i> 
+        <span class="{% if p.entry_fee == 'Free' %}free-badge{% endif %}">
+            {{p.entry_fee}}
+        </span>
+    </p>
+
+    <div style="background-color: #f8f9fa; padding: 10px; border-radius: 8px; margin-top: 10px; font-size: 14px; color: #333; line-height: 1.6;">
+        <p style="margin: 0;">🏨 <strong>Hotel:</strong> {{p.hotel}} <span style="font-size: 12px; color: #666;">(⭐{{p.hotel_rating}})</span></p>
+        <p style="margin: 0;">🥞 <strong>Tiffins:</strong> {{p.tiffin}}</p>
+        <p style="margin: 0;">🍛 <strong>Lunch:</strong> {{p.lunch}}</p>
+        <p style="margin: 0;">🥘 <strong>Dinner:</strong> {{p.dinner}}</p>
+        <p style="margin: 0;">🏥 <strong>Emergency:</strong> {{p.emergency}}</p>
+    </div>
+
+    <div class="actions" style="margin-top: 15px;">
+        <a target="_blank" class="btn" style="padding: 8px 12px; font-size: 14px; display: inline-block; margin-right: 5px;"
+        href="https://www.google.com/maps/search/{{p.place}},+{{city}},+Andhra+Pradesh/@{{p.lat}},{{p.lon}},16z">
+            Open Map 🗺
+        </a>
+        
+        <a href="{{ url_for('ai_recommendations', target_place=p.place) }}" class="btn-nearby" style="padding: 8px 12px; font-size: 14px; display: inline-block;">
+            Generate AI Plan 🚀
+        </a>
+    </div>
+</div>
+
+{% endfor %}
+
+</div>
+
+</body>
+</html>

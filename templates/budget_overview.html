@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Overview - {{destination}}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}?v=3">
+    <link rel="stylesheet" href="{{ url_for('static', filename='planai.css') }}?v=3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    {% include "navbar.html" %}
+    <button onclick="location.href='/ai_recommendations'" class="back-btn">Back</button>
+
+    <!-- BUDGET ANALYSIS SECTION -->
+    {% if cost_estimate %}
+    <div class="ai-analysis-card" style="margin: 40px auto; max-width: 900px; padding: 0 20px;">
+        <div class="analysis-header">
+            <h2><i class="fas fa-magic"></i> AI Budget Analysis for {{cost_estimate.name}}</h2>
+            <div class="accuracy-badge"><i class="fas fa-check-circle"></i> 100% Accurate AI Calculation</div>
+            <p class="subtitle">Personalized cost breakdown from {{location}}</p>
+        </div>
+        <div class="cost-grid">
+            <div class="cost-item">
+                <span class="label"><i class="fas fa-route"></i> Transport ({{cost_estimate.vehicle}})</span>
+                <span class="value">₹{{cost_estimate.transport}}</span>
+            </div>
+            <div class="cost-item">
+                <span class="label"><i class="fas fa-ticket-alt"></i> Entry Fee</span>
+                <span class="value">₹{{cost_estimate.entry}}</span>
+            </div>
+            <div class="cost-item">
+                <span class="label"><i class="fas fa-utensils"></i> Food & Snacks</span>
+                <span class="value">₹{{cost_estimate.food}}</span>
+            </div>
+            <div class="cost-item">
+                <span class="label"><i class="fas fa-coins"></i> Other Expenses</span>
+                <span class="value">₹{{cost_estimate.other}}</span>
+            </div>
+            <div class="cost-item total">
+                <span class="label">Estimated Total (100% Accurate)</span>
+                <span class="value">₹{{cost_estimate.total}}</span>
+            </div>
+        </div>
+        <div class="ai-suggestion">
+            <p><i class="fas fa-lightbulb"></i> <strong>AI Tip:</strong> This trip is roughly {{cost_estimate.dist}} km. We recommend starting early to avoid traffic and enjoy the spot fully!</p>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- TITLE -->
+    <h1 class="main-title">Budget-Aware Recommendations in {{destination}}</h1>
+    <p style="text-align:center;color:#666;margin-bottom:30px;">
+        <i class="fas fa-info-circle"></i> Showing {{places|length}} recommended places sorted by affordability & rating
+    </p>
+
+    <!-- RECOMMENDATIONS GRID -->
+    <div class="section" id="tourist-places">
+        <div class="cards" id="placesCards">
+            {% for place in places %}
+            <div class="card">
+                {% if place.is_affordable %}
+                    <span class="affordability-badge affordable"><i class="fas fa-check"></i> Within Budget</span>
+                {% else %}
+                    <span class="affordability-badge over-budget"><i class="fas fa-exclamation-triangle"></i> Over Budget</span>
+                {% endif %}
+
+                <h3><i class="fas fa-map-marker-alt"></i> {{place.place}}</h3>
+                <p><i class="fas fa-info-circle"></i> Location: {{place.area}}</p>
+                <p><i class="fas fa-star"></i> Rating: {{place.rating}}</p>
+                <p><i class="fas fa-ticket-alt"></i> Entry Fee: 
+                    <span class="{% if place.entry_fee == 'Free' %}free-badge{% endif %}">
+                        {{place.entry_fee}}
+                    </span>
+                </p>
+                <span class="card-cost-tag">Est. Trip Cost: <b>₹{{place.est_cost}}</b></span>
+                <p>Distance 🚗 {{place.distance}} km</p>
+                {% if place.time %}
+                    <p>Travel Time ⏱ {{place.time}} mins</p>
+                {% endif %}
+
+                <div class="actions">
+                    <a target="_blank" class="btn"
+                        href="https://www.google.com/maps/search/{{place.place}},+{{destination}},+Andhra+Pradesh/@{{place.lat}},{{place.lon}},16z">
+                        Map 🗺
+                    </a>
+                    <a href="{{ url_for('ai_recommendations', target_place=place.place) }}" class="btn-nearby">
+                        Generate AI Plan 🚀
+                    </a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- STATS SECTION -->
+    <div style="text-align: center; padding: 40px 20px; color: #666;">
+        <p><i class="fas fa-chart-pie"></i> <strong>Total Places:</strong> {{places|length}}</p>
+        <p><i class="fas fa-wallet"></i> <strong>Your Budget:</strong> ₹{{budget}}</p>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = '/ai_recommendations';
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,2407 @@
+[2026-03-18 22:46:11.854473] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 22:46:11.857110] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 22:46:26.466806] Dataset UPLOADED. Rows: 7166
+[2026-03-18 22:46:38.510727] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 22:46:38.514156] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-03-18 22:52:42.544851] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 22:52:43.160240] >>> APP STARTING / RELOADING <<<
+[2026-03-18 22:55:25.381186] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 22:55:25.384366] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 22:55:40.795985] Dataset UPLOADED. Rows: 7166
+[2026-03-18 22:55:47.816579] ENTERING train_model. df is None: False
+[2026-03-18 22:55:47.876475] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 22:55:47.877422] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 22:55:55.152553] ENTERING train_model. df is None: False
+[2026-03-18 22:55:55.228038] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 22:55:55.231525] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-03-18 23:00:40.404600] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:00:40.491384] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:01:14.478681] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:01:14.532171] >>> APP STARTING / RELOADING <<<
+[2026-03-18 23:03:38.685884] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:03:38.688818] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 23:03:55.098104] Dataset UPLOADED. Rows: 7166
+[2026-03-18 23:04:01.169566] ENTERING train_model. df is None: False
+[2026-03-18 23:04:19.360649] Dataset UPLOADED. Rows: 7166
+[2026-03-18 23:04:24.243070] ENTERING train_model. df is None: False
+
+[2026-03-18 23:07:23.735601] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:07:23.751943] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:07:48.357570] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:07:48.359308] >>> APP STARTING / RELOADING <<<
+[2026-03-18 23:08:35.347765] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:08:35.351400] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 23:08:45.817515] Dataset UPLOADED. Rows: 7166
+[2026-03-18 23:08:50.350533] ENTERING train_model. df is None: False
+[2026-03-18 23:08:50.361647] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 788, in train_model
+    le_district = LabelEncoder()
+                  ^^^^^^^^^^^^
+NameError: name 'LabelEncoder' is not defined
+
+[2026-03-18 23:08:55.007830] ENTERING train_model. df is None: False
+[2026-03-18 23:08:55.016847] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 788, in train_model
+    le_district = LabelEncoder()
+                  ^^^^^^^^^^^^
+NameError: name 'LabelEncoder' is not defined
+
+
+[2026-03-18 23:13:41.399279] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:13:41.543426] >>> APP STARTING / RELOADING <<<
+[2026-03-18 23:14:43.726491] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:14:43.728910] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 23:14:55.634993] Dataset UPLOADED. Rows: 7166
+[2026-03-18 23:15:00.313864] ENTERING train_model. df is None: False
+[2026-03-18 23:15:07.433907] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:15:07.435197] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 23:15:11.598740] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:15:11.600049] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 23:16:15.745351] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 827, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+
+[2026-03-18 23:18:42.177658] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:18:42.177711] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:18:54.079801] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:18:54.090268] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:19:13.810728] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:19:13.847053] >>> APP STARTING / RELOADING <<<
+[2026-03-18 23:19:25.221601] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:19:25.222858] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 23:19:45.314506] Dataset UPLOADED. Rows: 7166
+[2026-03-18 23:19:49.595863] ENTERING train_model. df is None: False
+[2026-03-18 23:19:57.759307] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:19:57.761486] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-03-18 23:21:11.606268] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:21:11.607770] >>> APP STARTING / RELOADING <<<
+[2026-03-18 23:21:38.775913] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:21:38.776545] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-03-18 23:26:51.864992] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:26:51.865209] >>> APP STARTING / RELOADING <<<
+[2026-03-18 23:27:24.484242] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:27:24.485034] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 23:30:26.333881] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:30:26.334483] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 23:30:39.057188] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:30:39.058009] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 23:34:05.561377] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:34:05.563365] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-18 23:35:03.526925] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:35:03.528031] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-03-18 23:36:51.902243] >>> APP STARTING / RELOADING <<<
+
+[2026-03-18 23:36:51.904721] >>> APP STARTING / RELOADING <<<
+[2026-03-18 23:37:59.877291] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-18 23:37:59.880958] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-03-20 11:05:16.303674] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 11:05:22.484133] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 17:27:41.619758] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 17:27:53.506775] >>> APP STARTING / RELOADING <<<
+[2026-03-20 17:28:32.551752] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 17:28:32.554532] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 17:29:35.792276] Dataset UPLOADED. Rows: 7166
+[2026-03-20 17:29:41.415814] ENTERING train_model. df is None: False
+[2026-03-20 17:31:02.381177] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 824, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+
+[2026-03-20 17:57:00.039812] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 17:57:02.508324] >>> APP STARTING / RELOADING <<<
+[2026-03-20 19:15:41.415647] Dataset UPLOADED. Rows: 7166
+[2026-03-20 19:15:50.907495] ENTERING train_model. df is None: False
+[2026-03-20 19:17:23.406576] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 834, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+
+[2026-03-20 19:36:28.252703] >>> APP STARTING / RELOADING <<<
+[2026-03-20 19:41:13.397395] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 19:41:13.400598] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 19:43:49.040369] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 19:43:49.043302] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 19:44:25.139665] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 19:44:25.141742] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 19:46:55.557135] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 19:46:55.560598] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 19:51:06.792076] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 19:51:06.794009] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-03-20 19:53:32.091002] >>> APP STARTING / RELOADING <<<
+[2026-03-20 19:58:50.469006] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 19:58:50.471304] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 20:03:41.802566] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 20:03:41.804598] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 20:17:11.569542] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 20:17:11.571717] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 20:24:02.192721] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 20:24:02.194106] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 20:24:05.809733] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 20:24:05.813329] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 20:24:56.854563] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 20:24:56.855182] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 20:32:16.405488] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 20:32:16.406513] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 20:34:02.972906] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 20:34:02.973961] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 20:36:52.352273] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 20:36:52.353204] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 20:36:57.207981] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 20:36:57.208518] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 20:39:00.332248] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-20 20:39:00.333084] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-20 20:39:47.803012] Dataset UPLOADED. Rows: 7166
+[2026-03-20 20:40:34.669306] ENTERING train_model. df is None: False
+[2026-03-20 20:41:23.664701] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 834, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+[2026-03-20 20:41:37.255873] ENTERING train_model. df is None: False
+[2026-03-20 20:42:27.356682] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 834, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+
+[2026-03-20 20:49:15.910080] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 21:10:43.374962] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 22:07:37.599998] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 22:07:44.872233] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 22:11:29.337013] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 22:15:00.751320] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 22:16:21.385680] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 22:17:09.492579] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 22:17:17.981353] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 22:21:12.872229] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 22:27:57.812038] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 22:51:18.534604] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 23:13:56.466161] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 23:29:43.490576] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 23:30:06.650893] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 23:35:38.237458] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 23:41:21.003186] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 23:41:26.579043] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 23:48:49.355162] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 23:49:50.978366] >>> APP STARTING / RELOADING <<<
+
+[2026-03-20 23:51:59.981660] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:01:02.859558] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:01:14.018018] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:01:52.232221] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:01:54.813064] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:05:14.611291] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:05:14.816736] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:05:51.316619] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:05:59.001535] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:05:59.017688] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:10:47.675552] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:10:58.644645] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:10:58.708503] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:12:42.361806] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:12:58.851750] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:12:58.876615] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:16:47.243017] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:16:47.243047] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:16:57.816395] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:17:48.534319] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:17:48.553071] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:17:59.177855] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:17:59.183926] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:22:15.737415] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:22:15.753447] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:24:12.506436] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:24:12.510815] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:34:34.836253] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:34:37.460051] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:37:16.221225] >>> APP STARTING / RELOADING <<<
+
+[2026-03-21 00:37:19.115361] >>> APP STARTING / RELOADING <<<
+
+[2026-03-22 21:02:42.205317] >>> APP STARTING / RELOADING <<<
+
+[2026-03-22 21:02:46.503308] >>> APP STARTING / RELOADING <<<
+
+[2026-03-22 21:28:43.826591] >>> APP STARTING / RELOADING <<<
+[2026-03-22 21:33:38.952166] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-22 21:33:38.953029] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-22 21:33:53.527380] Dataset UPLOADED. Rows: 7166
+[2026-03-22 21:33:57.644385] ENTERING train_model. df is None: False
+[2026-03-22 21:34:56.416522] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 883, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+
+[2026-03-22 22:21:28.608473] >>> APP STARTING / RELOADING <<<
+
+[2026-03-22 22:21:36.151568] >>> APP STARTING / RELOADING <<<
+[2026-03-22 22:55:18.416074] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-22 22:55:18.421475] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-03-23 15:42:53.850893] >>> APP STARTING / RELOADING <<<
+
+[2026-03-23 15:43:02.340910] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 15:48:59.071971] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 15:49:11.738399] >>> APP STARTING / RELOADING <<<
+[2026-03-24 15:53:41.261469] Dataset UPLOADED. Rows: 7166
+[2026-03-24 15:53:46.114574] ENTERING train_model. df is None: False
+[2026-03-24 15:55:43.484321] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 883, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+[2026-03-24 15:56:37.102068] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-24 15:56:37.103652] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-24 15:57:32.617296] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-24 15:57:32.619236] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-24 15:57:41.963066] ENTERING train_model. df is None: False
+
+[2026-03-24 18:28:14.962216] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 18:28:25.440765] >>> APP STARTING / RELOADING <<<
+[2026-03-24 18:31:50.991648] Dataset UPLOADED. Rows: 7166
+[2026-03-24 18:31:55.874036] ENTERING train_model. df is None: False
+[2026-03-24 18:33:01.762777] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 883, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+
+[2026-03-24 19:06:00.162728] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 19:06:39.346405] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 19:06:47.794290] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 19:24:48.821561] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 19:27:47.579265] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 20:06:26.892913] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 20:06:34.981741] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 20:42:12.275003] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 20:42:21.422208] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 21:33:46.688628] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 21:33:54.613725] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 22:22:31.108171] >>> APP STARTING / RELOADING <<<
+
+[2026-03-24 22:22:37.227757] >>> APP STARTING / RELOADING <<<
+
+[2026-03-25 14:54:36.194314] >>> APP STARTING / RELOADING <<<
+
+[2026-03-25 14:54:43.968752] >>> APP STARTING / RELOADING <<<
+[2026-03-25 14:56:57.045882] Dataset UPLOADED. Rows: 7166
+[2026-03-25 15:17:24.481932] ENTERING train_model. df is None: False
+[2026-03-25 15:19:15.312001] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 916, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+
+[2026-03-25 15:20:35.536677] >>> APP STARTING / RELOADING <<<
+[2026-03-25 15:29:58.943960] Dataset UPLOADED. Rows: 7166
+[2026-03-25 15:30:06.758175] ENTERING train_model. df is None: False
+[2026-03-25 15:31:51.698931] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 917, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+[2026-03-25 16:16:13.625503] Dataset UPLOADED. Rows: 7166
+[2026-03-25 16:19:58.307607] ENTERING train_model. df is None: False
+[2026-03-25 16:21:40.933551] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 917, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+
+[2026-03-26 20:43:57.990175] >>> APP STARTING / RELOADING <<<
+
+[2026-03-26 20:44:01.364794] >>> APP STARTING / RELOADING <<<
+[2026-03-26 20:53:33.475837] Dataset UPLOADED. Rows: 7166
+[2026-03-26 20:54:02.102243] ENTERING train_model. df is None: False
+[2026-03-26 20:56:05.283486] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 917, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+[2026-03-26 21:29:52.724009] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-26 21:29:52.726585] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-03-28 09:47:23.126938] >>> APP STARTING / RELOADING <<<
+
+[2026-03-28 09:47:31.157350] >>> APP STARTING / RELOADING <<<
+[2026-03-28 09:48:08.894481] Dataset UPLOADED. Rows: 7166
+[2026-03-28 09:48:36.173400] ENTERING train_model. df is None: False
+[2026-03-28 09:48:39.017580] ENTERING train_model. df is None: False
+[2026-03-28 09:48:54.822235] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-28 09:48:54.829729] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-28 09:49:06.735836] ENTERING train_model. df is None: False
+[2026-03-28 09:49:39.545000] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 917, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+[2026-03-28 09:50:08.492375] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 917, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+[2026-03-28 09:51:19.389355] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 917, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+
+[2026-03-30 19:28:09.320761] >>> APP STARTING / RELOADING <<<
+
+[2026-03-30 19:28:22.056320] >>> APP STARTING / RELOADING <<<
+[2026-03-30 21:46:43.663910] Dataset UPLOADED. Rows: 7166
+[2026-03-30 21:46:58.034807] ENTERING train_model. df is None: False
+[2026-03-30 21:48:30.804801] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 917, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 586153984 bytes
+
+
+[2026-03-30 21:56:19.698257] >>> APP STARTING / RELOADING <<<
+
+[2026-03-30 22:15:47.594717] >>> APP STARTING / RELOADING <<<
+
+[2026-03-30 22:17:37.991856] >>> APP STARTING / RELOADING <<<
+
+[2026-03-30 22:23:02.806188] >>> APP STARTING / RELOADING <<<
+
+[2026-03-30 22:25:50.782813] >>> APP STARTING / RELOADING <<<
+
+[2026-03-30 22:25:58.859218] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:25:59.152470] Dataset loaded with 7181 rows.
+
+[2026-03-30 22:28:11.841531] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:28:12.040046] Dataset loaded with 7181 rows.
+
+[2026-03-30 22:29:12.379112] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:29:12.577258] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:35:48.202222] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:35:48.465009] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:42:00.707413] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:42:01.001004] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:44:28.656535] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:44:28.849271] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:44:33.709807] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:44:33.915078] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:48:56.682202] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:48:56.884320] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:52:01.795233] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:52:02.010946] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:52:07.172512] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:52:07.412617] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:54:36.560306] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:54:36.780030] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:54:41.792264] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:54:41.995607] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:55:46.528839] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:55:46.749347] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:55:51.883457] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:55:52.097298] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:56:52.318638] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:56:52.530785] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:56:57.478332] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:56:57.701440] Dataset loaded with 6864 rows.
+
+[2026-03-30 22:57:52.372331] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:57:52.585468] Dataset loaded with 6862 rows.
+
+[2026-03-30 22:57:57.774357] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:57:57.972439] Dataset loaded with 6862 rows.
+
+[2026-03-30 22:59:15.334726] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:59:15.594506] Dataset loaded with 6862 rows.
+
+[2026-03-30 22:59:20.788635] >>> APP STARTING / RELOADING <<<
+[2026-03-30 22:59:20.985594] Dataset loaded with 6862 rows.
+
+[2026-03-30 23:05:50.245112] >>> APP STARTING / RELOADING <<<
+[2026-03-30 23:05:50.454666] Dataset loaded with 6862 rows.
+
+[2026-03-30 23:07:45.081401] >>> APP STARTING / RELOADING <<<
+[2026-03-30 23:07:45.304785] Dataset loaded with 6865 rows.
+
+[2026-03-30 23:07:50.697237] >>> APP STARTING / RELOADING <<<
+[2026-03-30 23:07:50.959263] Dataset loaded with 6865 rows.
+
+[2026-03-30 23:11:38.237184] >>> APP STARTING / RELOADING <<<
+[2026-03-30 23:11:38.454097] Dataset loaded with 6865 rows.
+
+[2026-03-30 23:11:49.549025] >>> APP STARTING / RELOADING <<<
+[2026-03-30 23:11:49.751061] Dataset loaded with 6865 rows.
+
+[2026-03-30 23:12:34.461701] >>> APP STARTING / RELOADING <<<
+[2026-03-30 23:12:34.681598] Dataset loaded with 6865 rows.
+
+[2026-03-30 23:12:42.179752] >>> APP STARTING / RELOADING <<<
+[2026-03-30 23:12:42.628361] Dataset loaded with 6865 rows.
+
+[2026-03-30 23:15:34.598637] >>> APP STARTING / RELOADING <<<
+[2026-03-30 23:15:34.777243] Dataset loaded with 6874 rows.
+
+[2026-03-30 23:15:39.595816] >>> APP STARTING / RELOADING <<<
+[2026-03-30 23:15:39.800740] Dataset loaded with 6874 rows.
+
+[2026-03-31 18:08:59.255414] >>> APP STARTING / RELOADING <<<
+[2026-03-31 18:09:00.133936] Dataset loaded with 6874 rows.
+
+[2026-03-31 18:09:08.357703] >>> APP STARTING / RELOADING <<<
+[2026-03-31 18:09:08.627857] Dataset loaded with 6874 rows.
+[2026-03-31 18:11:01.394889] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:11:01.397572] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-03-31 18:33:14.670042] >>> APP STARTING / RELOADING <<<
+[2026-03-31 18:33:16.000087] Dataset loaded with 6874 rows.
+[2026-03-31 18:35:42.003686] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:35:42.007066] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 18:37:20.738494] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:37:20.740517] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 18:37:37.226641] Dataset UPLOADED. Rows: 6874
+[2026-03-31 18:37:40.580625] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:37:40.582972] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 18:37:50.184998] ENTERING train_model. df is None: False
+[2026-03-31 18:37:57.329554] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:37:57.332566] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 18:38:07.214186] ENTERING train_model. df is None: False
+[2026-03-31 18:38:21.445362] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:38:21.449626] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 18:38:24.992445] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:38:24.993804] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 18:38:49.628243] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 936, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 558891008 bytes
+
+
+[2026-03-31 18:39:56.807079] >>> APP STARTING / RELOADING <<<
+[2026-03-31 18:39:57.607042] Dataset loaded with 6874 rows.
+
+[2026-03-31 18:40:12.432209] >>> APP STARTING / RELOADING <<<
+[2026-03-31 18:40:12.693005] Dataset loaded with 6874 rows.
+[2026-03-31 18:41:09.321177] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:41:09.329690] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 18:41:12.195950] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:41:12.198722] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 18:41:20.112398] ENTERING train_model. df is None: False
+[2026-03-31 18:41:32.512236] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:41:32.514370] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 18:41:49.771768] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:41:49.777697] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 18:42:42.301683] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 945, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 558891008 bytes
+
+
+[2026-03-31 18:45:05.071950] >>> APP STARTING / RELOADING <<<
+[2026-03-31 18:45:05.924844] Dataset loaded with 6874 rows.
+
+[2026-03-31 18:45:28.543508] >>> APP STARTING / RELOADING <<<
+[2026-03-31 18:45:28.748459] Dataset loaded with 6874 rows.
+[2026-03-31 18:45:59.257411] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 18:45:59.260517] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 18:46:07.568959] ENTERING train_model. df is None: False
+[2026-03-31 18:47:54.807698] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 945, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 558891008 bytes
+
+[2026-03-31 19:08:47.557561] ENTERING train_model. df is None: False
+[2026-03-31 19:10:03.049956] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 945, in train_model
+    clf.fit(X_train, y_train)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 486, in fit
+    trees = Parallel(
+    ...<2 lines>...
+        prefer="threads",
+    )(
+        delayed(_parallel_build_trees)(
+    ...<12 lines>...
+        for i, t in enumerate(trees)
+    )
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 82, in __call__
+    return super().__call__(iterable_with_config_and_warning_filters)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1986, in __call__
+    return output if self.return_generator else list(output)
+                                                ~~~~^^^^^^^^
+  File "C:\Python313\Lib\site-packages\joblib\parallel.py", line 1914, in _get_sequential_output
+    res = func(*args, **kwargs)
+  File "C:\Python313\Lib\site-packages\sklearn\utils\parallel.py", line 147, in __call__
+    return self.function(*args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\sklearn\ensemble\_forest.py", line 196, in _parallel_build_trees
+    tree._fit(
+    ~~~~~~~~~^
+        X,
+        ^^
+    ...<3 lines>...
+        missing_values_in_feature_mask=missing_values_in_feature_mask,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Python313\Lib\site-packages\sklearn\tree\_classes.py", line 472, in _fit
+    builder.build(self.tree_, X, y, sample_weight, missing_values_in_feature_mask)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "sklearn/tree/_tree.pyx", line 141, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 256, in sklearn.tree._tree.DepthFirstTreeBuilder.build
+  File "sklearn/tree/_tree.pyx", line 911, in sklearn.tree._tree.Tree._add_node
+  File "sklearn/tree/_tree.pyx", line 880, in sklearn.tree._tree.Tree._resize_c
+  File "sklearn/tree/_utils.pyx", line 29, in sklearn.tree._utils.safe_realloc
+MemoryError: could not allocate 558891008 bytes
+
+
+[2026-03-31 19:24:06.814589] >>> APP STARTING / RELOADING <<<
+[2026-03-31 19:24:07.744768] Dataset loaded with 6874 rows.
+
+[2026-03-31 19:24:13.789249] >>> APP STARTING / RELOADING <<<
+[2026-03-31 19:24:14.192428] Dataset loaded with 6874 rows.
+[2026-03-31 19:24:23.197333] ENTERING train_model. df is None: False
+[2026-03-31 19:24:38.285148] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:24:38.289360] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:24:42.037095] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:24:42.040154] Successfully loaded data from file.
+[2026-03-31 19:24:58.813960] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:24:58.817754] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 19:25:05.683702] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:25:05.685737] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 19:25:11.682599] ENTERING train_model. df is None: False
+[2026-03-31 19:25:26.466324] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:25:26.469260] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:25:29.316080] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:25:29.319288] Successfully loaded data from file.
+
+[2026-03-31 19:27:28.253125] >>> APP STARTING / RELOADING <<<
+[2026-03-31 19:27:28.574739] Dataset loaded with 6874 rows.
+[2026-03-31 19:27:40.649249] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:27:40.651279] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 19:27:55.543038] Dataset UPLOADED. Rows: 6874
+[2026-03-31 19:28:00.615766] ENTERING train_model. df is None: False
+[2026-03-31 19:28:14.605899] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:28:14.610576] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:28:17.156385] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:28:17.159399] Successfully loaded data from file.
+[2026-03-31 19:34:18.568110] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:34:18.570059] Successfully loaded data from file.
+[2026-03-31 19:34:24.564682] ENTERING train_model. df is None: False
+[2026-03-31 19:34:38.468222] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:34:38.471364] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:34:41.225433] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:34:41.230027] Successfully loaded data from file.
+
+[2026-03-31 19:38:22.255546] >>> APP STARTING / RELOADING <<<
+[2026-03-31 19:38:22.405389] Dataset loaded with 6874 rows.
+
+[2026-03-31 19:40:39.306034] >>> APP STARTING / RELOADING <<<
+[2026-03-31 19:40:39.449627] Dataset loaded with 6874 rows.
+[2026-03-31 19:41:03.848815] ENTERING train_model. df is None: False
+[2026-03-31 19:41:10.007416] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 1006, in train_model
+    rf_metrics = get_binary_metrics(y_test, y_pred_rf)
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 994, in get_binary_metrics
+    prec = precision_score(y_true, y_pred, average='macro', zero_division=0)
+           ^^^^^^^^^^^^^^^
+NameError: name 'precision_score' is not defined
+
+[2026-03-31 19:41:15.743884] ENTERING train_model. df is None: False
+[2026-03-31 19:41:21.487435] CRITICAL ERROR in train_model:
+Traceback (most recent call last):
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 1006, in train_model
+    rf_metrics = get_binary_metrics(y_test, y_pred_rf)
+  File "C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\app.py", line 994, in get_binary_metrics
+    prec = precision_score(y_true, y_pred, average='macro', zero_division=0)
+           ^^^^^^^^^^^^^^^
+NameError: name 'precision_score' is not defined
+
+
+[2026-03-31 19:42:07.014188] >>> APP STARTING / RELOADING <<<
+[2026-03-31 19:42:07.162334] Dataset loaded with 6874 rows.
+[2026-03-31 19:42:32.241430] ENTERING train_model. df is None: False
+[2026-03-31 19:42:37.433404] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:42:37.434567] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:42:43.768269] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:42:43.769023] Successfully loaded data from file.
+[2026-03-31 19:43:07.540554] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:43:07.541313] Successfully loaded data from file.
+
+[2026-03-31 19:45:15.641747] >>> APP STARTING / RELOADING <<<
+[2026-03-31 19:45:15.830337] Dataset loaded with 6874 rows.
+[2026-03-31 19:45:31.388417] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:45:31.389593] Successfully loaded data from file.
+[2026-03-31 19:45:32.535983] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:45:32.536951] Successfully loaded data from file.
+[2026-03-31 19:45:33.541202] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:45:33.542582] Successfully loaded data from file.
+[2026-03-31 19:45:34.351124] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:45:34.354272] Successfully loaded data from file.
+[2026-03-31 19:45:57.003142] ENTERING train_model. df is None: False
+[2026-03-31 19:46:02.539994] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:46:02.543501] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:46:07.884602] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:46:07.885742] Successfully loaded data from file.
+
+[2026-03-31 19:47:29.059594] >>> APP STARTING / RELOADING <<<
+[2026-03-31 19:47:29.186544] Dataset loaded with 6874 rows.
+[2026-03-31 19:48:30.663727] ENTERING train_model. df is None: False
+[2026-03-31 19:48:33.247035] ENTERING train_model. df is None: False
+[2026-03-31 19:48:36.053348] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:48:36.060839] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:48:38.709330] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:48:38.710944] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:48:41.313647] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:48:41.314425] Successfully loaded data from file.
+[2026-03-31 19:49:04.137995] ENTERING train_model. df is None: False
+[2026-03-31 19:49:09.220343] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:49:09.221441] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:51:53.856889] ENTERING train_model. df is None: False
+[2026-03-31 19:51:58.938325] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:51:58.940337] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:52:02.422262] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:52:02.423818] Successfully loaded data from file.
+[2026-03-31 19:52:14.281595] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:52:14.282088] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 19:53:56.914809] Dataset UPLOADED. Rows: 6874
+[2026-03-31 19:59:29.309170] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 19:59:29.311606] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-03-31 21:04:36.162067] ENTERING train_model. df is None: False
+[2026-03-31 21:04:51.665350] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-03-31 21:04:51.673636] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+
+[2026-04-01 17:49:34.419498] >>> APP STARTING / RELOADING <<<
+[2026-04-01 17:49:36.162678] Dataset loaded with 6874 rows.
+
+[2026-04-01 17:49:44.510246] >>> APP STARTING / RELOADING <<<
+[2026-04-01 17:49:44.844661] Dataset loaded with 6874 rows.
+
+[2026-04-01 17:56:58.637635] >>> APP STARTING / RELOADING <<<
+[2026-04-01 17:56:58.977135] Dataset loaded with 6874 rows.
+[2026-04-01 18:13:22.520228] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-01 18:13:22.524033] Successfully loaded data from file.
+[2026-04-01 18:13:29.516197] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-01 18:13:29.517361] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-04-01 18:17:22.646704] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-01 18:17:22.649240] File NOT found at C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-04-01 18:17:40.030709] Dataset UPLOADED. Rows: 6874
+[2026-04-01 18:17:49.076265] ENTERING train_model. df is None: False
+[2026-04-01 18:18:03.241151] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-01 18:18:03.244391] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-01 18:18:19.134723] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-01 18:18:19.139728] Successfully loaded data from file.
+[2026-04-01 18:18:33.074503] ENTERING train_model. df is None: False
+[2026-04-01 18:18:46.405581] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-01 18:18:46.408146] Results SAVED successfully to C:\Users\HP\Downloads\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+
+[2026-04-01 19:03:32.223921] >>> APP STARTING / RELOADING <<<
+[2026-04-01 19:03:32.764423] Dataset loaded with 6891 rows.
+
+[2026-04-01 19:03:38.592440] >>> APP STARTING / RELOADING <<<
+[2026-04-01 19:03:38.820262] Dataset loaded with 6891 rows.
+
+[2026-04-01 19:36:02.556565] >>> APP STARTING / RELOADING <<<
+[2026-04-01 19:36:03.148957] Dataset loaded with 4315 rows.
+
+[2026-04-01 19:36:08.994434] >>> APP STARTING / RELOADING <<<
+[2026-04-01 19:36:09.217907] Dataset loaded with 4315 rows.
+
+[2026-04-01 19:53:20.012763] >>> APP STARTING / RELOADING <<<
+[2026-04-01 19:53:20.892669] Dataset loaded with 4321 rows.
+
+[2026-04-01 19:53:28.265484] >>> APP STARTING / RELOADING <<<
+[2026-04-01 19:53:28.481354] Dataset loaded with 4321 rows.
+
+[2026-04-01 20:08:31.454656] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:08:32.100135] Dataset loaded with 4320 rows.
+
+[2026-04-01 20:08:36.098394] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:08:36.266977] Dataset loaded with 4320 rows.
+
+[2026-04-01 20:16:50.426306] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:16:50.711519] Dataset loaded with 4320 rows.
+
+[2026-04-01 20:16:53.117726] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:16:53.204279] Dataset loaded with 4320 rows.
+
+[2026-04-01 20:29:53.589934] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:29:53.716238] Dataset loaded with 4330 rows.
+
+[2026-04-01 20:35:50.007967] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:35:50.128956] Dataset loaded with 4330 rows.
+
+[2026-04-01 20:35:52.553077] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:35:52.668418] Dataset loaded with 4330 rows.
+
+[2026-04-01 20:36:52.331477] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:36:52.440503] Dataset loaded with 4330 rows.
+
+[2026-04-01 20:37:59.209532] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:37:59.349779] Dataset loaded with 6897 rows.
+
+[2026-04-01 20:38:01.803288] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:38:01.936555] Dataset loaded with 6897 rows.
+
+[2026-04-01 20:43:20.727845] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:43:20.856540] Dataset loaded with 6867 rows.
+
+[2026-04-01 20:43:23.330337] >>> APP STARTING / RELOADING <<<
+[2026-04-01 20:43:23.460327] Dataset loaded with 6867 rows.
+
+[2026-04-01 21:25:09.005758] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:25:09.822676] Dataset loaded with 6900 rows.
+
+[2026-04-01 21:28:56.847026] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:28:57.120797] Dataset loaded with 6900 rows.
+
+[2026-04-01 21:39:41.271856] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:39:41.675476] Dataset loaded with 7166 rows.
+
+[2026-04-01 21:43:18.619078] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:43:19.068378] Dataset loaded with 7166 rows.
+
+[2026-04-01 21:44:03.483132] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:44:03.776856] Dataset loaded with 7166 rows.
+
+[2026-04-01 21:46:22.444831] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:46:22.761524] Dataset loaded with 6883 rows.
+
+[2026-04-01 21:46:28.320844] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:46:28.517080] Dataset loaded with 6883 rows.
+
+[2026-04-01 21:46:28.983089] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:46:29.226709] Dataset loaded with 6883 rows.
+
+[2026-04-01 21:46:34.704537] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:46:34.965104] Dataset loaded with 6883 rows.
+
+[2026-04-01 21:55:03.593033] >>> APP STARTING / RELOADING <<<
+
+[2026-04-01 21:55:03.593842] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:55:03.938325] Dataset loaded with 6880 rows.
+[2026-04-01 21:55:03.952113] Dataset loaded with 6880 rows.
+
+[2026-04-01 21:55:25.047957] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:55:25.258301] Dataset loaded with 6880 rows.
+
+[2026-04-01 21:55:30.742874] >>> APP STARTING / RELOADING <<<
+[2026-04-01 21:55:30.951980] Dataset loaded with 6880 rows.
+
+[2026-04-01 22:00:21.855439] >>> APP STARTING / RELOADING <<<
+
+[2026-04-01 22:00:22.040642] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:00:22.092370] Dataset loaded with 6880 rows.
+[2026-04-01 22:00:22.234534] Dataset loaded with 6880 rows.
+
+[2026-04-01 22:01:08.694017] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:01:08.882466] Dataset loaded with 6885 rows.
+
+[2026-04-01 22:01:13.562235] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:01:13.753019] Dataset loaded with 6885 rows.
+
+[2026-04-01 22:03:21.548295] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:03:21.788529] Dataset loaded with 6885 rows.
+
+[2026-04-01 22:03:26.132153] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:03:26.347134] Dataset loaded with 6885 rows.
+
+[2026-04-01 22:05:41.009544] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:05:41.238543] Dataset loaded with 6885 rows.
+
+[2026-04-01 22:05:46.345079] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:05:46.608701] Dataset loaded with 6885 rows.
+
+[2026-04-01 22:05:52.869103] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:05:53.231855] Dataset loaded with 6885 rows.
+
+[2026-04-01 22:05:58.116939] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:05:58.338539] Dataset loaded with 6885 rows.
+
+[2026-04-01 22:10:37.707765] >>> APP STARTING / RELOADING <<<
+
+[2026-04-01 22:10:37.760909] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:10:37.994597] Dataset loaded with 6885 rows.
+[2026-04-01 22:10:38.056529] Dataset loaded with 6885 rows.
+
+[2026-04-01 22:13:48.033259] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:13:48.266391] Dataset loaded with 6418 rows.
+
+[2026-04-01 22:13:52.645500] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:13:52.911379] Dataset loaded with 6418 rows.
+
+[2026-04-01 22:13:54.037947] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:13:54.290851] Dataset loaded with 6418 rows.
+
+[2026-04-01 22:13:59.355710] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:13:59.573256] Dataset loaded with 6418 rows.
+
+[2026-04-01 22:21:33.556883] >>> APP STARTING / RELOADING <<<
+
+[2026-04-01 22:21:33.558434] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:21:33.927174] Dataset loaded with 6418 rows.
+[2026-04-01 22:21:33.928457] Dataset loaded with 6418 rows.
+
+[2026-04-01 22:21:40.705418] >>> APP STARTING / RELOADING <<<
+
+[2026-04-01 22:21:40.706155] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:21:40.963102] Dataset loaded with 6418 rows.
+[2026-04-01 22:21:40.964674] Dataset loaded with 6418 rows.
+
+[2026-04-01 22:22:21.246675] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:22:21.505321] Dataset loaded with 6417 rows.
+
+[2026-04-01 22:22:27.042168] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:22:27.471828] Dataset loaded with 6417 rows.
+
+[2026-04-01 22:23:11.075479] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:23:11.285394] Dataset loaded with 6417 rows.
+
+[2026-04-01 22:23:16.001642] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:23:16.278955] Dataset loaded with 6417 rows.
+
+[2026-04-01 22:30:33.012964] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:30:33.360634] Dataset loaded with 6417 rows.
+[2026-04-01 22:30:33.363030] Dataset loaded with 6417 rows.
+
+[2026-04-01 22:31:02.635799] >>> APP STARTING / RELOADING <<<
+
+[2026-04-01 22:31:02.635837] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:31:02.829141] Dataset loaded with 6448 rows.
+[2026-04-01 22:31:02.829566] Dataset loaded with 6448 rows.
+
+[2026-04-01 22:32:25.569318] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:32:25.696571] Dataset loaded with 6448 rows.
+
+[2026-04-01 22:32:28.114297] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:32:28.241678] Dataset loaded with 6448 rows.
+
+[2026-04-01 22:33:05.740493] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:33:05.866409] Dataset loaded with 6448 rows.
+
+[2026-04-01 22:33:08.212444] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:33:08.325584] Dataset loaded with 6448 rows.
+
+[2026-04-01 22:37:49.372106] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:37:49.534913] Dataset loaded with 6448 rows.
+[2026-04-01 22:37:49.535219] Dataset loaded with 6448 rows.
+
+[2026-04-01 22:38:30.995692] >>> APP STARTING / RELOADING <<<
+
+[2026-04-01 22:38:30.995899] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:38:31.123510] Dataset loaded with 6448 rows.
+[2026-04-01 22:38:31.134471] Dataset loaded with 6448 rows.
+
+[2026-04-01 22:38:59.109138] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:38:59.248654] Dataset loaded with 6463 rows.
+
+[2026-04-01 22:39:01.646906] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:39:01.765672] Dataset loaded with 6463 rows.
+
+[2026-04-01 22:39:18.217298] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:39:18.339115] Dataset loaded with 6463 rows.
+
+[2026-04-01 22:39:20.716604] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:39:20.832621] Dataset loaded with 6463 rows.
+
+[2026-04-01 22:46:47.660682] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:46:47.900559] Dataset loaded with 6463 rows.
+
+[2026-04-01 22:46:50.273511] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:46:50.399379] Dataset loaded with 6463 rows.
+
+[2026-04-01 22:54:02.000596] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:54:02.186270] Dataset loaded with 7167 rows.
+
+[2026-04-01 22:54:04.874141] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:54:05.043391] Dataset loaded with 7167 rows.
+
+[2026-04-01 22:54:29.830125] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:54:29.984478] Dataset loaded with 7167 rows.
+
+[2026-04-01 22:54:32.617520] >>> APP STARTING / RELOADING <<<
+[2026-04-01 22:54:32.769445] Dataset loaded with 7167 rows.
+
+[2026-04-01 23:00:01.762246] >>> APP STARTING / RELOADING <<<
+[2026-04-01 23:00:02.476251] Dataset loaded with 7178 rows.
+
+[2026-04-01 23:00:08.477636] >>> APP STARTING / RELOADING <<<
+[2026-04-01 23:00:08.711182] Dataset loaded with 7178 rows.
+
+[2026-04-01 23:00:13.786342] >>> APP STARTING / RELOADING <<<
+[2026-04-01 23:00:13.974877] Dataset loaded with 7178 rows.
+
+[2026-04-01 23:00:19.039773] >>> APP STARTING / RELOADING <<<
+[2026-04-01 23:00:19.260467] Dataset loaded with 7178 rows.
+
+[2026-04-03 11:18:15.269010] >>> APP STARTING / RELOADING <<<
+[2026-04-03 11:18:21.364181] Dataset loaded with 7178 rows.
+
+[2026-04-03 11:18:37.436750] >>> APP STARTING / RELOADING <<<
+[2026-04-03 11:18:42.292967] Dataset loaded with 7178 rows.
+
+[2026-04-03 11:18:57.893834] >>> APP STARTING / RELOADING <<<
+[2026-04-03 11:19:03.332898] Dataset loaded with 7178 rows.
+
+[2026-04-03 11:19:17.937153] >>> APP STARTING / RELOADING <<<
+[2026-04-03 11:19:22.924788] Dataset loaded with 7178 rows.
+[2026-04-03 11:20:37.331146] ENTERING train_model. df is None: False
+[2026-04-03 11:20:46.187030] Dataset UPLOADED. Rows: 54200
+[2026-04-03 11:20:52.469011] ENTERING train_model. df is None: False
+[2026-04-03 11:20:58.055543] Preparing to save results for user: phani to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-03 11:20:58.058544] Results SAVED successfully to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-03 11:21:31.676820] Preparing to save results for user: phani to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-03 11:21:31.833040] Results SAVED successfully to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-03 11:35:36.715458] Dataset UPLOADED. Rows: 54200
+[2026-04-03 11:35:55.250598] ENTERING train_model. df is None: False
+[2026-04-03 11:36:17.128522] Preparing to save results for user: phani to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-03 11:36:18.457502] Results SAVED successfully to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-03 11:49:44.753302] >>> APP STARTING / RELOADING <<<
+
+[2026-04-03 11:49:44.773788] >>> APP STARTING / RELOADING <<<
+[2026-04-03 11:49:50.136018] Dataset loaded with 7224 rows.
+[2026-04-03 11:49:50.146037] Dataset loaded with 7224 rows.
+[2026-04-03 11:50:15.343155] Dataset UPLOADED. Rows: 54200
+[2026-04-03 11:50:24.369139] ENTERING train_model. df is None: False
+[2026-04-03 11:50:45.083524] Preparing to save results for user: phani to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-03 11:50:46.018208] Results SAVED successfully to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-03 12:02:17.761985] >>> APP STARTING / RELOADING <<<
+
+[2026-04-03 12:02:17.762001] >>> APP STARTING / RELOADING <<<
+[2026-04-03 12:02:21.998396] Dataset loaded with 7263 rows.
+[2026-04-03 12:02:22.001743] Dataset loaded with 7263 rows.
+[2026-04-03 12:06:43.430740] Dataset UPLOADED. Rows: 54200
+[2026-04-03 12:07:23.357638] ENTERING train_model. df is None: False
+[2026-04-03 12:07:47.837912] Preparing to save results for user: phani to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-03 12:07:48.410984] Results SAVED successfully to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-03 12:21:42.853697] >>> APP STARTING / RELOADING <<<
+
+[2026-04-03 12:21:44.866063] >>> APP STARTING / RELOADING <<<
+[2026-04-03 12:21:47.580919] Dataset loaded with 7465 rows.
+[2026-04-03 12:21:49.091717] Dataset loaded with 7492 rows.
+[2026-04-03 12:22:52.080829] Dataset UPLOADED. Rows: 54200
+[2026-04-03 12:22:59.177744] ENTERING train_model. df is None: False
+[2026-04-03 12:23:23.064804] Preparing to save results for user: phani to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-03 12:23:23.309684] Results SAVED successfully to E:\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-03 20:55:38.690125] >>> APP STARTING / RELOADING <<<
+[2026-04-03 20:55:38.913811] Dataset loaded with 4842 rows.
+
+[2026-04-03 20:55:47.134051] >>> APP STARTING / RELOADING <<<
+[2026-04-03 20:55:47.348495] Dataset loaded with 4842 rows.
+
+[2026-04-03 21:01:17.343397] >>> APP STARTING / RELOADING <<<
+[2026-04-03 21:01:17.889675] Dataset loaded with 4842 rows.
+
+[2026-04-03 21:47:41.111915] >>> APP STARTING / RELOADING <<<
+[2026-04-03 21:47:41.947307] Dataset loaded with 4842 rows.
+
+[2026-04-03 21:47:48.213932] >>> APP STARTING / RELOADING <<<
+[2026-04-03 21:47:48.426753] Dataset loaded with 4842 rows.
+[2026-04-03 21:50:32.342436] Visiting /charts. User: Pravallika Ramena, File: C:\Users\HP\Downloads\UPDATED MCA PROJECT\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-03 21:50:32.397490] Successfully loaded data from file.
+[2026-04-03 21:50:42.981646] ENTERING train_model. df is None: False
+[2026-04-03 21:51:20.194497] Preparing to save results for user: Pravallika Ramena to C:\Users\HP\Downloads\UPDATED MCA PROJECT\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-03 21:51:20.200931] Results SAVED successfully to C:\Users\HP\Downloads\UPDATED MCA PROJECT\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+
+[2026-04-03 22:05:51.782355] >>> APP STARTING / RELOADING <<<
+[2026-04-03 22:05:52.278317] Dataset loaded with 4844 rows.
+
+[2026-04-03 22:05:58.455954] >>> APP STARTING / RELOADING <<<
+[2026-04-03 22:05:58.702245] Dataset loaded with 4844 rows.
+
+[2026-04-03 22:08:35.493800] >>> APP STARTING / RELOADING <<<
+[2026-04-03 22:08:35.721278] Dataset loaded with 4844 rows.
+
+[2026-04-03 22:09:12.217970] >>> APP STARTING / RELOADING <<<
+[2026-04-03 22:09:12.419544] Dataset loaded with 4844 rows.
+
+[2026-04-03 22:09:18.298550] >>> APP STARTING / RELOADING <<<
+[2026-04-03 22:09:18.543522] Dataset loaded with 4844 rows.
+
+[2026-04-04 17:21:05.835355] >>> APP STARTING / RELOADING <<<
+[2026-04-04 17:21:10.607138] Dataset loaded with 4847 rows.
+
+[2026-04-04 17:21:13.500664] >>> APP STARTING / RELOADING <<<
+[2026-04-04 17:21:17.612780] Dataset loaded with 4847 rows.
+
+[2026-04-04 17:22:31.145933] >>> APP STARTING / RELOADING <<<
+[2026-04-04 17:22:35.850289] Dataset loaded with 4847 rows.
+
+[2026-04-04 17:22:39.113878] >>> APP STARTING / RELOADING <<<
+[2026-04-04 17:22:43.235684] Dataset loaded with 4847 rows.
+[2026-04-04 17:24:03.641664] Dataset UPLOADED. Rows: 4847
+[2026-04-04 17:24:13.298745] ENTERING train_model. df is None: False
+[2026-04-04 17:24:25.597462] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 17:24:25.607731] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 17:35:54.395213] Dataset UPLOADED. Rows: 4847
+[2026-04-04 17:36:02.237341] ENTERING train_model. df is None: False
+[2026-04-04 17:36:08.385974] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 17:36:08.386927] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-04 17:44:05.878653] >>> APP STARTING / RELOADING <<<
+[2026-04-04 17:44:10.027955] Dataset loaded with 4726 rows.
+
+[2026-04-04 17:44:12.716252] >>> APP STARTING / RELOADING <<<
+[2026-04-04 17:44:16.833393] Dataset loaded with 4726 rows.
+
+[2026-04-04 17:46:15.998019] >>> APP STARTING / RELOADING <<<
+[2026-04-04 17:46:20.133930] Dataset loaded with 4733 rows.
+
+[2026-04-04 17:46:22.896658] >>> APP STARTING / RELOADING <<<
+[2026-04-04 17:46:27.024186] Dataset loaded with 4733 rows.
+[2026-04-04 17:47:00.169651] Dataset UPLOADED. Rows: 4733
+[2026-04-04 17:47:05.479899] ENTERING train_model. df is None: False
+[2026-04-04 17:47:11.419604] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 17:47:11.420898] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-04 19:57:29.866025] >>> APP STARTING / RELOADING <<<
+[2026-04-04 19:57:34.190498] Dataset loaded with 4733 rows.
+
+[2026-04-04 19:57:39.135617] >>> APP STARTING / RELOADING <<<
+[2026-04-04 19:57:43.330407] Dataset loaded with 4733 rows.
+[2026-04-04 19:58:54.800013] Dataset UPLOADED. Rows: 4733
+[2026-04-04 19:59:00.682095] ENTERING train_model. df is None: False
+[2026-04-04 19:59:13.558121] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 19:59:13.560434] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 20:16:35.284552] Dataset UPLOADED. Rows: 4724
+[2026-04-04 20:16:54.951648] ENTERING train_model. df is None: False
+[2026-04-04 20:17:07.698491] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 20:17:07.701373] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-04 20:24:43.290852] >>> APP STARTING / RELOADING <<<
+[2026-04-04 20:24:47.470666] Dataset loaded with 3985 rows.
+
+[2026-04-04 20:24:50.174425] >>> APP STARTING / RELOADING <<<
+[2026-04-04 20:24:54.297554] Dataset loaded with 3985 rows.
+[2026-04-04 20:28:11.971098] Dataset UPLOADED. Rows: 3985
+[2026-04-04 20:28:17.339843] ENTERING train_model. df is None: False
+[2026-04-04 20:28:21.826049] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 20:28:21.827518] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 20:36:14.008624] Dataset UPLOADED. Rows: 3954
+[2026-04-04 20:36:19.000786] ENTERING train_model. df is None: False
+[2026-04-04 20:36:23.134264] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 20:36:23.135909] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 20:38:49.788828] Dataset UPLOADED. Rows: 3954
+[2026-04-04 20:38:52.724304] ENTERING train_model. df is None: False
+[2026-04-04 20:38:57.195905] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 20:38:57.196869] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 20:46:42.639504] Dataset UPLOADED. Rows: 3957
+[2026-04-04 20:46:47.217436] ENTERING train_model. df is None: False
+[2026-04-04 20:46:54.451562] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 20:46:54.453446] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 20:51:01.922910] Dataset UPLOADED. Rows: 3957
+[2026-04-04 20:51:06.177546] ENTERING train_model. df is None: False
+[2026-04-04 20:51:10.424951] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 20:51:10.425608] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-04 21:07:25.984151] >>> APP STARTING / RELOADING <<<
+[2026-04-04 21:07:30.285901] Dataset loaded with 3957 rows.
+
+[2026-04-04 21:07:32.970172] >>> APP STARTING / RELOADING <<<
+[2026-04-04 21:07:37.703723] Dataset loaded with 3957 rows.
+[2026-04-04 21:08:36.471345] Dataset UPLOADED. Rows: 3957
+[2026-04-04 21:08:46.970522] ENTERING train_model. df is None: False
+[2026-04-04 21:08:50.520730] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 21:08:50.522709] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-04 21:16:41.669151] >>> APP STARTING / RELOADING <<<
+[2026-04-04 21:16:45.881461] Dataset loaded with 3882 rows.
+[2026-04-04 21:18:32.683717] Dataset UPLOADED. Rows: 3910
+[2026-04-04 21:18:36.949447] ENTERING train_model. df is None: False
+[2026-04-04 21:18:41.131799] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 21:18:41.133795] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-04 21:23:19.580676] >>> APP STARTING / RELOADING <<<
+[2026-04-04 21:23:23.730558] Dataset loaded with 3919 rows.
+
+[2026-04-04 21:23:26.506888] >>> APP STARTING / RELOADING <<<
+[2026-04-04 21:23:30.643158] Dataset loaded with 3919 rows.
+
+[2026-04-04 21:39:53.915151] >>> APP STARTING / RELOADING <<<
+[2026-04-04 21:39:58.083233] Dataset loaded with 3933 rows.
+
+[2026-04-04 21:40:01.040438] >>> APP STARTING / RELOADING <<<
+[2026-04-04 21:40:05.273689] Dataset loaded with 3933 rows.
+[2026-04-04 21:41:56.695950] Dataset UPLOADED. Rows: 3943
+[2026-04-04 21:42:03.005787] ENTERING train_model. df is None: False
+[2026-04-04 21:42:06.317693] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 21:42:06.318234] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-04 21:55:29.698141] >>> APP STARTING / RELOADING <<<
+[2026-04-04 21:55:34.277362] Dataset loaded with 3946 rows.
+[2026-04-04 21:56:18.444942] Dataset UPLOADED. Rows: 3946
+[2026-04-04 21:56:33.494502] Dataset UPLOADED. Rows: 3946
+[2026-04-04 21:56:39.036895] ENTERING train_model. df is None: False
+[2026-04-04 21:56:43.079515] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 21:56:43.080328] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-04 22:18:26.115637] >>> APP STARTING / RELOADING <<<
+[2026-04-04 22:18:32.725513] Dataset loaded with 3951 rows.
+
+[2026-04-04 22:18:41.141768] >>> APP STARTING / RELOADING <<<
+[2026-04-04 22:18:47.190673] Dataset loaded with 3951 rows.
+[2026-04-04 22:21:49.016239] Dataset UPLOADED. Rows: 3951
+[2026-04-04 22:21:58.787652] ENTERING train_model. df is None: False
+[2026-04-04 22:22:02.432943] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 22:22:02.434449] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-04 23:05:30.660740] >>> APP STARTING / RELOADING <<<
+[2026-04-04 23:05:35.828660] Dataset loaded with 3951 rows.
+
+[2026-04-04 23:05:39.146814] >>> APP STARTING / RELOADING <<<
+[2026-04-04 23:05:43.308106] Dataset loaded with 3951 rows.
+[2026-04-04 23:06:09.094680] Dataset UPLOADED. Rows: 3951
+[2026-04-04 23:06:14.079524] ENTERING train_model. df is None: False
+[2026-04-04 23:06:17.725274] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-04 23:06:17.950512] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+
+[2026-04-05 10:35:34.589282] >>> APP STARTING / RELOADING <<<
+[2026-04-05 10:35:40.600880] Dataset loaded with 3951 rows.
+
+[2026-04-05 10:35:43.650850] >>> APP STARTING / RELOADING <<<
+[2026-04-05 10:35:47.789820] Dataset loaded with 3951 rows.
+
+[2026-04-05 10:54:41.754216] >>> APP STARTING / RELOADING <<<
+[2026-04-05 10:54:46.317508] Dataset loaded with 4642 rows.
+
+[2026-04-05 10:55:25.763738] >>> APP STARTING / RELOADING <<<
+[2026-04-05 10:55:29.939148] Dataset loaded with 4642 rows.
+
+[2026-04-05 10:55:33.946246] >>> APP STARTING / RELOADING <<<
+[2026-04-05 10:55:38.213524] Dataset loaded with 4642 rows.
+
+[2026-04-05 10:58:34.872174] >>> APP STARTING / RELOADING <<<
+[2026-04-05 10:58:39.016895] Dataset loaded with 4642 rows.
+
+[2026-04-05 10:58:41.676751] >>> APP STARTING / RELOADING <<<
+[2026-04-05 10:58:45.826460] Dataset loaded with 4642 rows.
+[2026-04-05 11:01:00.397657] Dataset UPLOADED. Rows: 4642
+[2026-04-05 11:01:12.983816] ENTERING train_model. df is None: False
+[2026-04-05 11:01:27.518450] Preparing to save results for user: phani to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-05 11:01:27.519710] Results SAVED successfully to F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-05 11:04:59.841747] Visiting /charts. User: phani, File: F:\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_phani.json
+[2026-04-05 11:04:59.874423] Successfully loaded data from file.
+
+[2026-04-05 16:47:37.386615] >>> APP STARTING / RELOADING <<<
+[2026-04-05 16:47:37.738065] Dataset loaded with 4642 rows.
+
+[2026-04-05 16:47:43.712864] >>> APP STARTING / RELOADING <<<
+[2026-04-05 16:47:44.107362] Dataset loaded with 4642 rows.
+[2026-04-05 16:47:56.529276] Visiting /charts. User: Pravallika Ramena, File: C:\SMART AP\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-05 16:47:56.532977] Successfully loaded data from file.
+[2026-04-05 16:48:07.992183] Visiting /charts. User: Pravallika Ramena, File: C:\SMART AP\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-05 16:48:07.995179] File NOT found at C:\SMART AP\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-04-05 16:48:45.887785] Dataset UPLOADED. Rows: 4642
+[2026-04-05 16:48:50.997113] ENTERING train_model. df is None: False
+[2026-04-05 16:49:00.384023] Preparing to save results for user: Pravallika Ramena to C:\SMART AP\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-05 16:49:00.386766] Results SAVED successfully to C:\SMART AP\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+
+[2026-04-05 16:56:44.387804] >>> APP STARTING / RELOADING <<<
+[2026-04-05 16:56:44.597545] Dataset loaded with 4641 rows.
+
+[2026-04-05 16:56:50.235907] >>> APP STARTING / RELOADING <<<
+[2026-04-05 16:56:50.369051] Dataset loaded with 4641 rows.
+
+[2026-04-05 16:57:01.615126] >>> APP STARTING / RELOADING <<<
+[2026-04-05 16:57:01.730764] Dataset loaded with 4641 rows.
+
+[2026-04-05 16:57:07.579996] >>> APP STARTING / RELOADING <<<
+[2026-04-05 16:57:07.694457] Dataset loaded with 4641 rows.
+
+[2026-04-05 16:57:15.598358] >>> APP STARTING / RELOADING <<<
+[2026-04-05 16:57:15.715670] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:03:27.973573] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:03:28.236998] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:04:38.273899] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:04:38.498732] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:05:04.808864] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:05:04.988784] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:05:43.825164] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:05:44.015199] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:05:49.176497] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:05:49.343206] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:12:42.589577] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:12:42.810138] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:12:42.848824] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:12:43.033695] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:12:55.571922] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:12:55.800782] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:12:56.122382] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:12:56.417364] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:17:07.552166] >>> APP STARTING / RELOADING <<<
+
+[2026-04-05 17:17:07.567293] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:17:07.712761] Dataset loaded with 4641 rows.
+[2026-04-05 17:17:07.713404] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:23:42.735774] >>> APP STARTING / RELOADING <<<
+
+[2026-04-05 17:23:42.743468] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:23:42.985571] Dataset loaded with 4641 rows.
+[2026-04-05 17:23:42.999239] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:29:49.268828] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:29:49.427148] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:29:49.869843] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:29:49.998315] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:31:28.026912] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:31:28.130452] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:32:44.243772] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:32:44.349697] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:32:46.792740] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:32:46.902657] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:33:34.968633] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:33:35.071818] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:33:37.445009] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:33:37.539389] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:36:13.010936] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:36:13.109339] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:36:15.545311] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:36:15.639181] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:37:04.421695] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:37:04.523259] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:37:06.902142] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:37:06.995088] Dataset loaded with 4641 rows.
+[2026-04-05 17:43:33.176252] ENTERING train_model. df is None: False
+[2026-04-05 17:43:36.832542] Preparing to save results for user: Pravallika Ramena to C:\SMART AP\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-05 17:43:36.834313] Results SAVED successfully to C:\SMART AP\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+
+[2026-04-05 17:51:27.549970] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:51:27.669969] Dataset loaded with 4641 rows.
+
+[2026-04-05 17:51:30.309028] >>> APP STARTING / RELOADING <<<
+[2026-04-05 17:51:30.424600] Dataset loaded with 4641 rows.
+
+[2026-04-05 18:03:01.419122] >>> APP STARTING / RELOADING <<<
+[2026-04-05 18:03:01.532346] Dataset loaded with 4641 rows.
+
+[2026-04-05 18:03:04.132268] >>> APP STARTING / RELOADING <<<
+[2026-04-05 18:03:04.231038] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:35:52.894972] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:35:53.575533] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:36:37.005363] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:36:37.181222] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:38:44.017102] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:38:44.211692] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:43:59.996327] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:44:00.154264] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:44:04.511204] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:44:04.681248] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:46:42.552966] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:46:42.766631] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:53:41.689032] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:53:41.891605] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:53:46.589433] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:53:46.729894] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:54:17.759430] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:54:17.925645] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:54:46.704100] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:54:46.906478] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:57:43.079512] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:57:43.281567] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:57:49.760315] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:57:49.984812] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:58:37.312024] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:58:37.515341] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:59:43.642199] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:59:43.844960] Dataset loaded with 4641 rows.
+
+[2026-04-05 21:59:50.236799] >>> APP STARTING / RELOADING <<<
+[2026-04-05 21:59:50.434010] Dataset loaded with 4641 rows.
+
+[2026-04-05 22:00:29.853687] >>> APP STARTING / RELOADING <<<
+[2026-04-05 22:00:30.079410] Dataset loaded with 4641 rows.
+
+[2026-04-05 22:00:35.108319] >>> APP STARTING / RELOADING <<<
+[2026-04-05 22:00:35.293972] Dataset loaded with 4641 rows.
+
+[2026-04-05 22:00:58.867515] >>> APP STARTING / RELOADING <<<
+[2026-04-05 22:00:59.084142] Dataset loaded with 4641 rows.
+[2026-04-05 22:34:28.783628] Visiting /charts. User: Pravallika Ramena, File: C:\SMART AP\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-05 22:34:28.786805] File NOT found at C:\SMART AP\UPDATED MCA PROJECT APRIL -3\UPDATED MCA PROJECT APRIL -3\UPDATED DEMO PLAN FINAL\DEMO PLAN\NEW FRND UPDATED CODE\FRND CODE (2)\FRND CODE\SMART AP TRAVEL PLANNER\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-04-05 22:43:34.758544] >>> APP STARTING / RELOADING <<<
+[2026-04-05 22:43:35.278997] Dataset loaded with 4641 rows.
+
+[2026-04-05 22:43:40.894042] >>> APP STARTING / RELOADING <<<
+[2026-04-05 22:43:41.085372] Dataset loaded with 4641 rows.
+
+[2026-04-06 18:47:02.779956] >>> APP STARTING / RELOADING <<<
+[2026-04-06 18:47:03.463740] Dataset loaded with 4641 rows.
+
+[2026-04-06 18:47:08.008544] >>> APP STARTING / RELOADING <<<
+[2026-04-06 18:47:08.205651] Dataset loaded with 4641 rows.
+
+[2026-04-06 19:05:20.240394] >>> APP STARTING / RELOADING <<<
+[2026-04-06 19:05:20.744691] Dataset loaded with 4641 rows.
+
+[2026-04-06 19:05:27.802118] >>> APP STARTING / RELOADING <<<
+[2026-04-06 19:05:28.173893] Dataset loaded with 4641 rows.
+
+[2026-04-06 19:24:24.543983] >>> APP STARTING / RELOADING <<<
+[2026-04-06 19:24:25.395776] Dataset loaded with 4641 rows.
+
+[2026-04-06 19:25:10.862413] >>> APP STARTING / RELOADING <<<
+[2026-04-06 19:25:11.297126] Dataset loaded with 4641 rows.
+
+[2026-04-06 22:09:13.217162] >>> APP STARTING / RELOADING <<<
+[2026-04-06 22:09:13.422994] Dataset loaded with 4641 rows.
+
+[2026-04-06 22:09:17.255870] >>> APP STARTING / RELOADING <<<
+[2026-04-06 22:09:17.399008] Dataset loaded with 4641 rows.
+
+[2026-04-07 10:35:31.754443] >>> APP STARTING / RELOADING <<<
+[2026-04-07 10:35:32.466697] Dataset loaded with 4641 rows.
+
+[2026-04-07 10:35:34.977899] >>> APP STARTING / RELOADING <<<
+[2026-04-07 10:35:35.101109] Dataset loaded with 4641 rows.
+[2026-04-07 12:16:39.243556] Visiting /charts. User: Pravallika, File: C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika.json
+[2026-04-07 12:16:39.245312] File NOT found at C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika.json.
+[2026-04-07 12:16:43.442123] Visiting /charts. User: Pravallika, File: C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika.json
+[2026-04-07 12:16:43.442719] File NOT found at C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika.json.
+[2026-04-07 12:18:28.369360] Dataset UPLOADED. Rows: 4641
+[2026-04-07 12:18:38.979329] ENTERING train_model. df is None: False
+[2026-04-07 12:18:42.518022] Preparing to save results for user: Pravallika to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika.json
+[2026-04-07 12:18:42.519983] Results SAVED successfully to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika.json
+[2026-04-07 12:31:52.053650] Visiting /charts. User: Pravallika, File: C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika.json
+[2026-04-07 12:31:52.060702] Successfully loaded data from file.
+
+[2026-04-07 12:33:35.251547] >>> APP STARTING / RELOADING <<<
+[2026-04-07 12:33:36.693542] Dataset loaded with 4641 rows.
+[2026-04-07 12:36:13.148227] ENTERING train_model. df is None: False
+[2026-04-07 12:36:25.460713] Preparing to save results for user: Pravallika to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika.json
+[2026-04-07 12:36:25.462694] Results SAVED successfully to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika.json
+
+[2026-04-08 19:10:42.702119] >>> APP STARTING / RELOADING <<<
+[2026-04-08 19:10:43.857955] Dataset loaded with 4641 rows.
+
+[2026-04-08 19:10:55.972353] >>> APP STARTING / RELOADING <<<
+[2026-04-08 19:10:56.324782] Dataset loaded with 4641 rows.
+
+[2026-04-08 19:17:58.293965] >>> APP STARTING / RELOADING <<<
+[2026-04-08 19:17:59.245116] Dataset loaded with 4641 rows.
+
+[2026-04-08 19:18:14.597736] >>> APP STARTING / RELOADING <<<
+[2026-04-08 19:18:15.113528] Dataset loaded with 4641 rows.
+
+[2026-04-08 20:11:43.608925] >>> APP STARTING / RELOADING <<<
+[2026-04-08 20:11:44.157514] Dataset loaded with 4641 rows.
+
+[2026-04-08 20:11:56.958103] >>> APP STARTING / RELOADING <<<
+[2026-04-08 20:11:57.071621] Dataset loaded with 4641 rows.
+
+[2026-04-08 20:11:59.704015] >>> APP STARTING / RELOADING <<<
+[2026-04-08 20:11:59.808751] Dataset loaded with 4641 rows.
+
+[2026-04-09 09:38:44.229293] >>> APP STARTING / RELOADING <<<
+[2026-04-09 09:38:44.806687] Dataset loaded with 4641 rows.
+
+[2026-04-09 09:38:54.877915] >>> APP STARTING / RELOADING <<<
+[2026-04-09 09:38:55.167419] Dataset loaded with 4641 rows.
+[2026-04-09 09:40:45.526012] Visiting /charts. User: Pravallika Ramena, File: C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 09:40:45.528393] File NOT found at C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+
+[2026-04-09 09:42:54.039560] >>> APP STARTING / RELOADING <<<
+[2026-04-09 09:42:54.747274] Dataset loaded with 4641 rows.
+
+[2026-04-09 09:43:01.539726] >>> APP STARTING / RELOADING <<<
+[2026-04-09 09:43:01.806588] Dataset loaded with 4641 rows.
+
+[2026-04-09 09:43:48.103234] >>> APP STARTING / RELOADING <<<
+[2026-04-09 09:43:48.393472] Dataset loaded with 4641 rows.
+
+[2026-04-09 09:44:59.569724] >>> APP STARTING / RELOADING <<<
+[2026-04-09 09:44:59.853172] Dataset loaded with 4641 rows.
+
+[2026-04-09 09:45:08.086961] >>> APP STARTING / RELOADING <<<
+[2026-04-09 09:45:08.288320] Dataset loaded with 4641 rows.
+[2026-04-09 09:49:32.382313] Visiting /charts. User: Pravallika Ramena, File: C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 09:49:32.384232] File NOT found at C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-04-09 09:50:03.401826] Dataset UPLOADED. Rows: 4641
+[2026-04-09 09:50:36.247569] ENTERING train_model. df is None: False
+[2026-04-09 09:50:46.067028] Preparing to save results for user: Pravallika Ramena to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 09:50:46.069450] Results SAVED successfully to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 09:54:47.320886] Visiting /charts. User: Pravallika Ramena, File: C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 09:54:47.329167] Successfully loaded data from file.
+[2026-04-09 09:56:17.479345] ENTERING train_model. df is None: False
+[2026-04-09 09:56:29.023281] Preparing to save results for user: Pravallika Ramena to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 09:56:29.025502] Results SAVED successfully to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+
+[2026-04-09 10:07:51.803003] >>> APP STARTING / RELOADING <<<
+[2026-04-09 10:07:52.508101] Dataset loaded with 4641 rows.
+
+[2026-04-09 10:08:02.603990] >>> APP STARTING / RELOADING <<<
+[2026-04-09 10:08:02.949754] Dataset loaded with 4641 rows.
+[2026-04-09 10:08:30.224525] Visiting /charts. User: Pravallika Ramena, File: C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 10:08:30.225990] File NOT found at C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-04-09 10:08:39.767943] Dataset UPLOADED. Rows: 4641
+[2026-04-09 10:08:41.132306] Visiting /charts. User: Pravallika Ramena, File: C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 10:08:41.133215] File NOT found at C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json.
+[2026-04-09 10:08:46.513689] ENTERING train_model. df is None: False
+[2026-04-09 10:08:58.352878] Preparing to save results for user: Pravallika Ramena to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 10:08:58.355892] Results SAVED successfully to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+
+[2026-04-09 10:30:26.524789] >>> APP STARTING / RELOADING <<<
+[2026-04-09 10:30:27.181005] Dataset loaded with 4641 rows.
+
+[2026-04-09 10:30:37.376165] >>> APP STARTING / RELOADING <<<
+[2026-04-09 10:30:37.598999] Dataset loaded with 4641 rows.
+[2026-04-09 10:32:16.029041] ENTERING train_model. df is None: False
+[2026-04-09 10:32:33.922726] Preparing to save results for user: Pravallika Ramena to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 10:32:33.927376] Results SAVED successfully to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 10:40:30.085408] Visiting /charts. User: Pravallika Ramena, File: C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 10:40:30.090888] Successfully loaded data from file.
+[2026-04-09 10:43:07.784560] Dataset UPLOADED. Rows: 4641
+[2026-04-09 10:43:12.131247] ENTERING train_model. df is None: False
+[2026-04-09 10:43:28.945236] Preparing to save results for user: Pravallika Ramena to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+[2026-04-09 10:43:28.951742] Results SAVED successfully to C:\SMART AP TRAVEL\SMART AP TRAVEL PLANNER\datasets\training_state_Pravallika Ramena.json
+
+[2026-04-10 09:32:42.684170] >>> APP STARTING / RELOADING <<<
+[2026-04-10 09:32:43.604804] Dataset loaded with 4641 rows.
+
+[2026-04-10 09:32:49.961798] >>> APP STARTING / RELOADING <<<
+[2026-04-10 09:32:50.208472] Dataset loaded with 4641 rows.

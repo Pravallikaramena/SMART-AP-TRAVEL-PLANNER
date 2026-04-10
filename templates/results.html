@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Model Training Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dataset.css') }}">
+    <!-- Chart Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    {% include "navbar.html" %}
+
+    <div class="results-page-container">
+        <div class="results-header">
+            <h1 class="results-title">Training Results & Analytics</h1>
+            <a href="/dataset" class="back-btn">← Back to Dataset</a>
+        </div>
+
+        <div class="metrics-summary">
+            <div class="metric-card">
+                <h3>Overall Accuracy</h3>
+                <div class="metric-value">{{ accuracy }}%</div>
+                <p>Correct predictions across the test set</p>
+            </div>
+            <div class="metric-card highlight">
+                <h3>Classification Report</h3>
+                <div class="report-table-small">
+                    {{ report_html | safe }}
+                </div>
+            </div>
+        </div>
+
+        <div class="chart-section">
+            <div class="chart-container">
+                <h3>Accuracy: Models Comparison</h3>
+                <canvas id="compChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Top Places Distribution (Support)</h3>
+                <canvas id="supportChart"></canvas>
+            </div>
+        </div>
+
+        <div class="chart-section">
+            <div class="chart-container">
+                <h3>Precision Analysis</h3>
+                <canvas id="precisionChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3>Recall Stability</h3>
+                <canvas id="recallChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='dataset.js') }}"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const rf_acc = {{ rf_acc | default(0) }};
+            const dt_acc = {{ dt_acc | default(0) }};
+            const knn_acc = {{ knn_acc | default(0) }};
+
+            const labels = {{ labels | tojson | safe }};
+            const precision = {{ precision | tojson | safe }};
+            const recall = {{ recall | tojson | safe }};
+            const support = {{ support | tojson | safe }};
+
+            initCharts(rf_acc, dt_acc, knn_acc, labels, precision, recall, support);
+        });
+    </script>
+</body>
+</html>

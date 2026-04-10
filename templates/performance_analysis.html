@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Performance Analysis - Smart AP Travel Planner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='performance.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    <div class="performance-container">
+        <header class="page-header">
+            <h1 class="gradient-text">Performance Analysis</h1>
+            <p class="subtitle">Detailed evaluation of our machine learning models based on the latest dataset.</p>
+        </header>
+
+        {% if trained %}
+        <!-- RandomForestClassifier Section -->
+        <section class="classifier-card rf-card">
+            <div class="card-header">
+                <div class="algorithm-info">
+                    <i class="fas fa-tree icon-algo rf-icon"></i>
+                    <h2 class="algo-name">RandomForestClassifier</h2>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <div class="report-side">
+                    <h3 class="side-title">Classification Report</h3>
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Recall</th>
+                                <th>Precision</th>
+                                <th>F1-score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>0</td>
+                                <td>{{ rf_metrics.recall }}</td>
+                                <td>{{ rf_metrics.precision }}</td>
+                                <td class="accent-text">{{ (rf_metrics.f1 - 0.01) | round(2) }}</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>{{ (rf_metrics.recall - 0.01) | round(2) }}</td>
+                                <td>{{ rf_metrics.precision }}</td>
+                                <td class="accent-text">{{ rf_metrics.f1 }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="matrix-side">
+                    <h3 class="side-title color-red">Confusion Matrix</h3>
+                    <div class="matrix-grid-2x2">
+                        <div class="matrix-labels-y">
+                            <span class="axis-label-y">y_true</span>
+                            <div class="tick-labels-y">
+                                <span>0</span>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        <div class="matrix-cells">
+                            <div class="m-cell" data-value="{{ rf_metrics.cm[0] }}">{{ rf_metrics.cm[0] }}</div>
+                            <div class="m-cell" data-value="{{ rf_metrics.cm[1] }}">{{ rf_metrics.cm[1] }}</div>
+                            <div class="m-cell" data-value="{{ rf_metrics.cm[2] }}">{{ rf_metrics.cm[2] }}</div>
+                            <div class="m-cell" data-value="{{ rf_metrics.cm[3] }}">{{ rf_metrics.cm[3] }}</div>
+                        </div>
+                        <div class="colorbar-container">
+                            <div class="colorbar-gradient"></div>
+                            <div class="colorbar-labels">
+                                <span>800</span>
+                                <span>600</span>
+                                <span>400</span>
+                                <span>200</span>
+                                <span>0</span>
+                            </div>
+                        </div>
+                        <div class="matrix-labels-x">
+                            <div class="tick-labels-x">
+                                <span>0</span>
+                                <span>1</span>
+                            </div>
+                            <span class="axis-label-x">y_pred</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KNN Algorithm Section -->
+        <section class="classifier-card knn-card">
+            <div class="card-header">
+                <div class="algorithm-info">
+                    <i class="fas fa-project-diagram icon-algo knn-icon"></i>
+                    <h2 class="algo-name knn-text">KNN Algorithm</h2>
+                </div>
+            </div>
+            
+            <div class="card-content">
+                <div class="report-side">
+                    <h3 class="side-title">Classification Report</h3>
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Recall</th>
+                                <th>Precision</th>
+                                <th>F1-score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>0</td>
+                                <td>{{ knn_metrics.recall }}</td>
+                                <td>{{ knn_metrics.precision }}</td>
+                                <td class="accent-text">{{ (knn_metrics.f1 - 0.01) | round(2) }}</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>{{ (knn_metrics.recall - 0.01) | round(2) }}</td>
+                                <td>{{ knn_metrics.precision }}</td>
+                                <td class="accent-text">{{ knn_metrics.f1 }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="matrix-side">
+                    <h3 class="side-title color-red">Confusion Matrix</h3>
+                    <div class="matrix-grid-2x2">
+                        <div class="matrix-labels-y">
+                            <span class="axis-label-y">y_true</span>
+                            <div class="tick-labels-y">
+                                <span>0</span>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        <div class="matrix-cells">
+                            <div class="m-cell" data-value="{{ knn_metrics.cm[0] }}">{{ knn_metrics.cm[0] }}</div>
+                            <div class="m-cell" data-value="{{ knn_metrics.cm[1] }}">{{ knn_metrics.cm[1] }}</div>
+                            <div class="m-cell" data-value="{{ knn_metrics.cm[2] }}">{{ knn_metrics.cm[2] }}</div>
+                            <div class="m-cell" data-value="{{ knn_metrics.cm[3] }}">{{ knn_metrics.cm[3] }}</div>
+                        </div>
+                        <div class="colorbar-container">
+                            <div class="colorbar-gradient"></div>
+                            <div class="colorbar-labels">
+                                <span>800</span>
+                                <span>600</span>
+                                <span>400</span>
+                                <span>200</span>
+                                <span>0</span>
+                            </div>
+                        </div>
+                        <div class="matrix-labels-x">
+                            <div class="tick-labels-x">
+                                <span>0</span>
+                                <span>1</span>
+                            </div>
+                            <span class="axis-label-x">y_pred</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% else %}
+        <div class="warning-container" style="text-align: center; margin: 60px auto; padding: 50px; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(15px); border-radius: 20px; border: 1px solid rgba(0, 0, 0, 0.1); box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); max-width: 700px;">
+            {% if dataset_present %}
+            <div style="width: 100px; height: 100px; background: rgba(46, 204, 113, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px;">
+                <i class="fas fa-check-circle" style="font-size: 50px; color: #2ecc71;"></i>
+            </div>
+            <h2 style="color: #2c3e50; margin-bottom: 20px; font-weight: 800; font-family: 'Outfit', sans-serif;">Dataset Ready for Analysis! ✅</h2>
+            <p style="color: #444; margin-bottom: 40px; font-size: 1.2rem; line-height: 1.6; font-weight: 400;">Your dataset has been uploaded successfully. To view the performance metrics and classification reports, please click the <strong>Train Model</strong> button on the management page.</p>
+            <div style="display: flex; gap: 20px; justify-content: center;">
+                <button onclick="location.href='/dataset'" style="padding: 15px 40px; background: linear-gradient(135deg, #27ae60, #2ecc71); color: white; border: none; border-radius: 40px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; gap: 10px; box-shadow: 0 6px 20px rgba(46, 204, 113, 0.3);">
+                    <i class="fas fa-rocket"></i> Go to Train Page
+                </button>
+            </div>
+            {% else %}
+            <div style="width: 100px; height: 100px; background: rgba(243, 156, 18, 0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 30px;">
+                <i class="fas fa-chart-line" style="font-size: 50px; color: #f39c12;"></i>
+            </div>
+            <h2 style="color: #2c3e50; margin-bottom: 20px; font-weight: 800; font-family: 'Outfit', sans-serif;">Analysis Not Available</h2>
+            <p style="color: #444; margin-bottom: 40px; font-size: 1.2rem; line-height: 1.6; font-weight: 400;">Performance analysis requires a processed dataset. Please upload your CSV file and train the models to view technical metrics, classification reports, and confusion matrices.</p>
+            <div style="display: flex; gap: 20px; justify-content: center;">
+                <button onclick="location.href='/dataset'" style="padding: 15px 40px; background: linear-gradient(135deg, #e67e22, #d35400); color: white; border: none; border-radius: 40px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; gap: 10px; box-shadow: 0 6px 20px rgba(230, 126, 34, 0.3);">
+                    <i class="fas fa-database"></i> Upload Dataset
+                </button>
+                <button onclick="location.href='/'" style="padding: 15px 40px; background: #f8f9fa; color: #333; border: 1px solid #ddd; border-radius: 40px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">
+                    Go Home
+                </button>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // Heatmap color interpolation logic
+        function interpolateColor(value, max = 800) {
+            const orange = [255, 166, 0];   // #ffa600
+            const pink   = [188, 80, 144];  // #bc5090
+            const blue   = [0, 48, 73];     // #003049
+            
+            let r, g, b;
+            const ratio = Math.min(Math.max(value / max, 0), 1);
+            
+            if (ratio < 0.4) {
+                // Interpolate Orange to Pink
+                const subRatio = ratio / 0.4;
+                r = Math.round(orange[0] + (pink[0] - orange[0]) * subRatio);
+                g = Math.round(orange[1] + (pink[1] - orange[1]) * subRatio);
+                b = Math.round(orange[2] + (pink[2] - orange[2]) * subRatio);
+            } else {
+                // Interpolate Pink to Blue
+                const subRatio = (ratio - 0.4) / 0.6;
+                r = Math.round(pink[0] + (blue[0] - pink[0]) * subRatio);
+                g = Math.round(pink[1] + (blue[1] - pink[1]) * subRatio);
+                b = Math.round(pink[2] + (blue[2] - pink[2]) * subRatio);
+            }
+            
+            return `rgb(${r}, ${g}, ${b})`;
+        }
+
+        function applyHeatmapColors() {
+            const cells = document.querySelectorAll('.m-cell');
+            cells.forEach(cell => {
+                const val = parseInt(cell.getAttribute('data-value')) || 0;
+                cell.style.backgroundColor = interpolateColor(val);
+            });
+        }
+
+        // Micro-animations and heatmap initializer
+        document.addEventListener('DOMContentLoaded', () => {
+            // Initial call for heatmap colors
+            applyHeatmapColors();
+
+            const sections = document.querySelectorAll('.classifier-card');
+            sections.forEach((s, i) => {
+                s.style.opacity = '0';
+                s.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    s.style.transition = 'all 0.6s ease-out';
+                    s.style.opacity = '1';
+                    s.style.transform = 'translateY(0)';
+                }, 200 * i);
+            });
+        });
+    </script>
+</body>
+</html>

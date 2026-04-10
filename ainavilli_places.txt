@@ -1,0 +1,8 @@
+[
+  {
+    "Tourist_Place": "Ainavilli Cultural Museum"
+  },
+  {
+    "Tourist_Place": "Ainavilli Heritage Temple"
+  }
+]
